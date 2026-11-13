@@ -11,7 +11,8 @@
   "pattern": "stripes",
   "timer": "ring",
   "bpm": 122,
-  "root": 220
+  "root": 220,
+  "voice": "af_heart"
  },
  "questions": [
   {
@@ -72,7 +73,7 @@
  ],
  "yt": {
   "title": "Capital Cities Quiz: Can You Get All 5? 🏛️",
-  "description": "5 capital cities, easy to expert. Comment your score 👇\n\n#shorts #quiz #geography #capitals #trivia",
+  "description": "Five countries whose capital isn't the city most people guess first. Can you get all five? Comment your score 👇\n\n#shorts #quiz #geography #capitals #trivia",
   "tags": [
    "capital cities quiz",
    "geography quiz",

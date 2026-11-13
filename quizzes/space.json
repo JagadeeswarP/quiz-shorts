@@ -11,7 +11,8 @@
   "pattern": "dots",
   "timer": "bar",
   "bpm": 110,
-  "root": 185
+  "root": 185,
+  "voice": "af_heart"
  },
  "questions": [
   {
@@ -72,7 +73,7 @@
  ],
  "yt": {
   "title": "Space Quiz: Can You Get 5/5? 🚀",
-  "description": "5 space questions, easy to expert. Comment your score 👇\n\n#shorts #quiz #space #science #trivia",
+  "description": "How close is the nearest star, and how long can a footprint last on the Moon? Five space questions, easy to expert. Comment your score 👇\n\n#shorts #quiz #space #astronomy #trivia",
   "tags": [
    "space quiz",
    "astronomy",

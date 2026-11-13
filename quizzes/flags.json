@@ -63,11 +63,12 @@
   "pattern": "stripes",
   "timer": "bar",
   "bpm": 118,
-  "root": 196
+  "root": 196,
+  "voice": "af_heart"
  },
  "yt": {
   "title": "Can You Name All 5 Flags? 🌍 Flag Quiz (Easy → Expert)",
-  "description": "5 flags, easy to expert. Comment your score 👇\n\n#shorts #quiz #flags #geography #trivia",
+  "description": "Five flags from easy to expert, each with a fact about what its design means. Comment your score 👇\n\n#shorts #quiz #flags #geography #trivia",
   "tags": [
    "flag quiz",
    "guess the flag",
@@ -76,5 +77,6 @@
    "trivia",
    "shorts"
   ]
- }
+ },
+ "ask": "Which country does this flag belong to?"
 }

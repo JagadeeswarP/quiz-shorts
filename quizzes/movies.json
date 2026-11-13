@@ -63,11 +63,12 @@
   "pattern": "waves",
   "timer": "ring",
   "bpm": 128,
-  "root": 233
+  "root": 233,
+  "voice": "af_heart"
  },
  "yt": {
   "title": "Guess 5 Movies From Emojis 🎬 (Easy → Expert)",
-  "description": "5 movies hidden in emojis. How many did you get? Comment your score 👇\n\n#shorts #quiz #movies #emojiquiz #trivia",
+  "description": "Five famous films, told only in emojis. The first two are warm-ups; number five trips up a lot of fans. Comment your score 👇\n\n#shorts #quiz #movies #emojiquiz #trivia",
   "tags": [
    "emoji quiz",
    "guess the movie",
@@ -76,5 +77,6 @@
    "trivia",
    "shorts"
   ]
- }
+ },
+ "ask": "Which movie is this?"
 }

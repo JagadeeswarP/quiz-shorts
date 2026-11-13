@@ -1,0 +1,101 @@
+{
+ "title": "WHICH ONE?",
+ "hook1": "Pick the right one:",
+ "hook2": "5 head-to-head battles",
+ "hook_emoji": "⚖️",
+ "bg": [
+  "#134E4A",
+  "#0EA5E9"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "bar",
+  "bpm": 124,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "text": "Which is bigger?",
+   "options": [
+    "Elephant",
+    "Blue whale"
+   ],
+   "opt_emoji": [
+    "🐘",
+    "🐋"
+   ],
+   "answer": 1,
+   "fact": "The biggest animal that ever lived|🐋"
+  },
+  {
+   "layout": "versus",
+   "text": "Which is taller?",
+   "options": [
+    "Eiffel Tower",
+    "Statue of Liberty"
+   ],
+   "opt_emoji": [
+    "🗼",
+    "🗽"
+   ],
+   "answer": 0,
+   "fact": "About 330 m vs about 93 m"
+  },
+  {
+   "layout": "versus",
+   "text": "Which is faster?",
+   "options": [
+    "Cheetah",
+    "Peregrine falcon"
+   ],
+   "opt_emoji": [
+    "🐆",
+    "🦅"
+   ],
+   "answer": 1,
+   "fact": "Falcons dive at over 300 km/h"
+  },
+  {
+   "layout": "versus",
+   "text": "Which came first?",
+   "options": [
+    "Great Pyramid",
+    "Mammoths dying out"
+   ],
+   "opt_emoji": [
+    "🔺",
+    "🦣"
+   ],
+   "answer": 0,
+   "fact": "Mammoths survived until about 4,000 years ago",
+   "say_answer": "The Great Pyramid! Some mammoths were still alive when it was built."
+  },
+  {
+   "layout": "versus",
+   "text": "Which star is bigger?",
+   "options": [
+    "The Sun",
+    "Betelgeuse"
+   ],
+   "opt_emoji": [
+    "☀️",
+    "🔴"
+   ],
+   "answer": 1,
+   "fact": "Betelgeuse is hundreds of times wider"
+  }
+ ],
+ "yt": {
+  "title": "Which One? 5 Head-to-Head Battles ⚖️",
+  "description": "Whale vs elephant, cheetah vs falcon, pyramid vs mammoth. Pick the winner of each matchup before the timer runs out. Comment your score 👇\n\n#shorts #quiz #thisorthat #facts #trivia",
+  "tags": [
+   "which is bigger",
+   "this or that",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

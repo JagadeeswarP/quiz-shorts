@@ -11,7 +11,8 @@
   "pattern": "waves",
   "timer": "ring",
   "bpm": 120,
-  "root": 207.7
+  "root": 207.7,
+  "voice": "af_heart"
  },
  "questions": [
   {
@@ -72,7 +73,7 @@
  ],
  "yt": {
   "title": "Animal Quiz: How Many Do You Know? 🦒",
-  "description": "5 animal questions, easy to expert. How many did you get? Comment your score 👇\n\n#shorts #quiz #animals #facts #trivia",
+  "description": "Sleepy koalas, blue-blooded octopuses and sharks older than trees: five animal facts, easy to expert. Comment your score 👇\n\n#shorts #quiz #animals #nature #trivia",
   "tags": [
    "animal quiz",
    "animal facts",

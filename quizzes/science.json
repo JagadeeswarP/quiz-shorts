@@ -68,11 +68,12 @@
   "pattern": "dots",
   "timer": "ring-left",
   "bpm": 112,
-  "root": 220
+  "root": 220,
+  "voice": "af_heart"
  },
  "yt": {
   "title": "Science Quiz: How Far Can You Go? 🧠 (Easy → Expert)",
-  "description": "5 science questions, easy to expert. How many did you get? Comment your score 👇\n\n#shorts #quiz #science #trivia #funfacts",
+  "description": "From octopus hearts to a planet that spins the 'wrong' way, five science facts that sound made up but are true. Comment your score 👇\n\n#shorts #quiz #science #funfacts #trivia",
   "tags": [
    "science quiz",
    "quiz",

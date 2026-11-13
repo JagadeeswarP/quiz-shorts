@@ -1,0 +1,120 @@
+{
+ "title": "ODD ONE OUT",
+ "hook1": "Spot the odd one out:",
+ "hook2": "5 rounds",
+ "hook_emoji": "🔍",
+ "bg": [
+  "#7C2D12",
+  "#F59E0B"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 112,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "tiles",
+   "text": "Which one isn't a fruit?",
+   "options": [
+    "Apple",
+    "Banana",
+    "Carrot",
+    "Grapes"
+   ],
+   "opt_emoji": [
+    "🍎",
+    "🍌",
+    "🥕",
+    "🍇"
+   ],
+   "answer": 2,
+   "fact": "A carrot is a root vegetable"
+  },
+  {
+   "layout": "tiles",
+   "text": "Which one isn't a mammal?",
+   "options": [
+    "Dolphin",
+    "Bat",
+    "Penguin",
+    "Cow"
+   ],
+   "opt_emoji": [
+    "🐬",
+    "🦇",
+    "🐧",
+    "🐄"
+   ],
+   "answer": 2,
+   "fact": "Penguins are birds that can't fly"
+  },
+  {
+   "layout": "tiles",
+   "text": "Which one couldn't fly?",
+   "options": [
+    "Eagle",
+    "Bat",
+    "Butterfly",
+    "Dodo"
+   ],
+   "opt_emoji": [
+    "🦅",
+    "🦇",
+    "🦋",
+    "🦤"
+   ],
+   "answer": 3,
+   "fact": "Dodos lived only on Mauritius"
+  },
+  {
+   "layout": "tiles",
+   "text": "Which one isn't in Asia?",
+   "options": [
+    "Japan",
+    "India",
+    "Kenya",
+    "Thailand"
+   ],
+   "opt_emoji": [
+    "🇯🇵",
+    "🇮🇳",
+    "🇰🇪",
+    "🇹🇭"
+   ],
+   "answer": 2,
+   "fact": "Kenya is in East Africa"
+  },
+  {
+   "layout": "tiles",
+   "text": "Which one isn't a reptile?",
+   "options": [
+    "Snake",
+    "Turtle",
+    "Crocodile",
+    "Frog"
+   ],
+   "opt_emoji": [
+    "🐍",
+    "🐢",
+    "🐊",
+    "🐸"
+   ],
+   "answer": 3,
+   "fact": "Frogs are amphibians"
+  }
+ ],
+ "yt": {
+  "title": "Odd One Out: 5 Rounds 🔍 Can You Spot Them All?",
+  "description": "Four pictures, one doesn't belong. Five rounds covering food, animals and geography. Comment your score 👇\n\n#shorts #quiz #oddoneout #puzzle #trivia",
+  "tags": [
+   "odd one out",
+   "puzzle",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

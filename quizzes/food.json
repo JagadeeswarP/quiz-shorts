@@ -11,7 +11,8 @@
   "pattern": "stripes",
   "timer": "ring-left",
   "bpm": 126,
-  "root": 246.9
+  "root": 246.9,
+  "voice": "af_heart"
  },
  "questions": [
   {
@@ -67,7 +68,7 @@
  ],
  "yt": {
   "title": "Guess the Country From Its Food 🍕 (5 Levels)",
-  "description": "5 famous foods, 5 countries. How many did you get? Comment your score 👇\n\n#shorts #quiz #food #geography #trivia",
+  "description": "Pizza, sushi, tacos, croissants and pretzels: guess where each one comes from, with a surprising origin story for each. Comment your score 👇\n\n#shorts #quiz #food #geography #trivia",
   "tags": [
    "food quiz",
    "geography quiz",
@@ -75,5 +76,6 @@
    "quiz",
    "shorts"
   ]
- }
+ },
+ "ask": "Which country is this food from?"
 }

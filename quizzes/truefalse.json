@@ -1,0 +1,110 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "True or false?",
+ "hook2": "5 facts that sound fake",
+ "hook_emoji": "🤔",
+ "bg": [
+  "#312E81",
+  "#DB2777"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring",
+  "bpm": 118,
+  "root": 233,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "emoji": "⚡",
+   "text": "Lightning is hotter than\nthe surface of the Sun",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "About 30,000°C vs about 5,500°C",
+   "say_answer": "True! Lightning can be about five times hotter."
+  },
+  {
+   "layout": "versus",
+   "emoji": "🧱",
+   "text": "You can see the Great Wall\nof China from space by eye",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 1,
+   "fact": "It's far too narrow to see",
+   "say_answer": "False! It's far too narrow to see with the naked eye."
+  },
+  {
+   "layout": "versus",
+   "emoji": "🍯",
+   "text": "Honey can last for\nthousands of years",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "Edible honey was found in ancient tombs",
+   "say_answer": "True! Edible honey has been found in ancient Egyptian tombs."
+  },
+  {
+   "layout": "versus",
+   "emoji": "🐠",
+   "text": "Goldfish only have a\n3-second memory",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 1,
+   "fact": "They can remember things for months",
+   "say_answer": "False! Goldfish can remember things for months."
+  },
+  {
+   "layout": "versus",
+   "emoji": "🪐",
+   "text": "A day on Venus is longer\nthan a year on Venus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "243 Earth days vs 225 Earth days",
+   "say_answer": "True! One spin takes longer than one trip around the Sun."
+  }
+ ],
+ "yt": {
+  "title": "True or False? 5 Facts That Sound Fake 🤔",
+  "description": "Lightning, honey, goldfish and a planet where the day outlasts the year. Five statements: which ones are real? Comment your score 👇\n\n#shorts #quiz #trueorfalse #facts #trivia",
+  "tags": [
+   "true or false",
+   "fun facts",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

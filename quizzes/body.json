@@ -11,7 +11,8 @@
   "pattern": "waves",
   "timer": "bar",
   "bpm": 116,
-  "root": 196
+  "root": 196,
+  "voice": "af_heart"
  },
  "questions": [
   {
@@ -72,7 +73,7 @@
  ],
  "yt": {
   "title": "Human Body Quiz: How Well Do You Know Yourself? 🫀",
-  "description": "5 human body questions, easy to expert. Comment your score 👇\n\n#shorts #quiz #humanbody #science #trivia",
+  "description": "Your heart, bones, eyes and brain do things you never notice. Five human body questions, easy to expert. Comment your score 👇\n\n#shorts #quiz #humanbody #science #trivia",
   "tags": [
    "human body quiz",
    "science quiz",
