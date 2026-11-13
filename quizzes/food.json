@@ -1,0 +1,79 @@
+{
+ "title": "GUESS THE COUNTRY",
+ "hook1": "Guess the country",
+ "hook2": "from its food",
+ "hook_emoji": "🍽️",
+ "bg": [
+  "#9A3412",
+  "#FACC15"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring-left",
+  "bpm": 126,
+  "root": 246.9
+ },
+ "questions": [
+  {
+   "emoji": "🍕",
+   "options": [
+    "Greece",
+    "Italy",
+    "Spain"
+   ],
+   "answer": 1,
+   "fact": "Margherita pizza is named after a queen|👑"
+  },
+  {
+   "emoji": "🍣",
+   "options": [
+    "Japan",
+    "China",
+    "Thailand"
+   ],
+   "answer": 0,
+   "fact": "Sushi began as a way to preserve fish"
+  },
+  {
+   "emoji": "🌮",
+   "options": [
+    "Brazil",
+    "Peru",
+    "Mexico"
+   ],
+   "answer": 2,
+   "fact": "Corn tortillas go back thousands of years"
+  },
+  {
+   "emoji": "🥐",
+   "options": [
+    "France",
+    "Belgium",
+    "Austria"
+   ],
+   "answer": 0,
+   "fact": "It was inspired by the Austrian kipferl"
+  },
+  {
+   "emoji": "🥨",
+   "options": [
+    "Poland",
+    "Germany",
+    "Denmark"
+   ],
+   "answer": 1,
+   "fact": "The pretzel is a symbol of German bakers"
+  }
+ ],
+ "yt": {
+  "title": "Guess the Country From Its Food 🍕 (5 Levels)",
+  "description": "5 famous foods, 5 countries. How many did you get? Comment your score 👇\n\n#shorts #quiz #food #geography #trivia",
+  "tags": [
+   "food quiz",
+   "geography quiz",
+   "guess the country",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

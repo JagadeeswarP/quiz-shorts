@@ -1,0 +1,80 @@
+{
+ "title": "GUESS THE MOVIE",
+ "hook1": "Guess 5 movies",
+ "hook2": "from emojis",
+ "hook_emoji": "🎬",
+ "bg": [
+  "#7F1D1D",
+  "#EA580C"
+ ],
+ "questions": [
+  {
+   "emoji": "🦁👑",
+   "options": [
+    "Madagascar",
+    "The Lion King",
+    "Jungle Book"
+   ],
+   "answer": 1,
+   "fact": "Released in 1994|🦁"
+  },
+  {
+   "emoji": "🚢🧊💔",
+   "options": [
+    "Titanic",
+    "Life of Pi",
+    "Poseidon"
+   ],
+   "answer": 0,
+   "fact": "Won 11 Oscars|🏆"
+  },
+  {
+   "emoji": "🦖🏝️🚙",
+   "options": [
+    "King Kong",
+    "Godzilla",
+    "Jurassic Park"
+   ],
+   "answer": 2,
+   "fact": "Directed by Steven Spielberg|🎥"
+  },
+  {
+   "emoji": "👻🚫🔫",
+   "options": [
+    "Ghostbusters",
+    "Casper",
+    "Coco"
+   ],
+   "answer": 0,
+   "fact": "First released in 1984|👻"
+  },
+  {
+   "emoji": "🧙‍♂️💍🌋",
+   "options": [
+    "Harry Potter",
+    "The Hobbit",
+    "Lord of the Rings"
+   ],
+   "answer": 2,
+   "fact": "The ring goes into Mount Doom|🌋"
+  }
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 128,
+  "root": 233
+ },
+ "yt": {
+  "title": "Guess 5 Movies From Emojis 🎬 (Easy → Expert)",
+  "description": "5 movies hidden in emojis. How many did you get? Comment your score 👇\n\n#shorts #quiz #movies #emojiquiz #trivia",
+  "tags": [
+   "emoji quiz",
+   "guess the movie",
+   "movie quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

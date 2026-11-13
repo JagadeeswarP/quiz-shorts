@@ -1,0 +1,84 @@
+{
+ "title": "SPACE QUIZ",
+ "hook1": "Space quiz:",
+ "hook2": "can you get 5/5?",
+ "hook_emoji": "🚀",
+ "bg": [
+  "#0F172A",
+  "#4338CA"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "bpm": 110,
+  "root": 185
+ },
+ "questions": [
+  {
+   "emoji": "⭐",
+   "text": "What's the closest\nstar to Earth?",
+   "options": [
+    "The Sun",
+    "Proxima Centauri",
+    "Sirius"
+   ],
+   "answer": 0,
+   "fact": "Proxima Centauri is the next closest"
+  },
+  {
+   "emoji": "☀️",
+   "text": "How long does sunlight\ntake to reach Earth?",
+   "options": [
+    "8 seconds",
+    "8 minutes",
+    "8 hours"
+   ],
+   "answer": 1,
+   "fact": "About 8 minutes and 20 seconds"
+  },
+  {
+   "emoji": "🔥",
+   "text": "Which is the\nhottest planet?",
+   "options": [
+    "Mercury",
+    "Venus",
+    "Mars"
+   ],
+   "answer": 1,
+   "fact": "Its thick clouds trap the heat"
+  },
+  {
+   "emoji": "🪐",
+   "text": "Which planet has the\nmost known moons?",
+   "options": [
+    "Jupiter",
+    "Saturn",
+    "Neptune"
+   ],
+   "answer": 1,
+   "fact": "Saturn leads the moon count|🌙"
+  },
+  {
+   "emoji": "👣",
+   "text": "Moon footprints could last…",
+   "options": [
+    "Days",
+    "Years",
+    "Millions of years"
+   ],
+   "answer": 2,
+   "fact": "There's no wind or rain to erase them"
+  }
+ ],
+ "yt": {
+  "title": "Space Quiz: Can You Get 5/5? 🚀",
+  "description": "5 space questions, easy to expert. Comment your score 👇\n\n#shorts #quiz #space #science #trivia",
+  "tags": [
+   "space quiz",
+   "astronomy",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

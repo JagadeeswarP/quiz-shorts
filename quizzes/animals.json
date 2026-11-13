@@ -1,0 +1,84 @@
+{
+ "title": "ANIMAL QUIZ",
+ "hook1": "5 animal facts:",
+ "hook2": "how many do you know?",
+ "hook_emoji": "🦒",
+ "bg": [
+  "#14532D",
+  "#84CC16"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 120,
+  "root": 207.7
+ },
+ "questions": [
+  {
+   "emoji": "🐨",
+   "text": "How long can a koala\nsleep in a day?",
+   "options": [
+    "8 hours",
+    "14 hours",
+    "Up to 22 hours"
+   ],
+   "answer": 2,
+   "fact": "Eucalyptus gives them very little energy"
+  },
+  {
+   "emoji": "🦒",
+   "text": "How many neck bones\ndoes a giraffe have?",
+   "options": [
+    "7",
+    "17",
+    "27"
+   ],
+   "answer": 0,
+   "fact": "The same number as humans!|🤯"
+  },
+  {
+   "emoji": "🐙",
+   "text": "What colour is\noctopus blood?",
+   "options": [
+    "Red",
+    "Blue",
+    "Green"
+   ],
+   "answer": 1,
+   "fact": "It uses copper, not iron, to carry oxygen"
+  },
+  {
+   "emoji": "🦈",
+   "text": "Sharks are older than…",
+   "options": [
+    "Trees",
+    "Dinosaurs",
+    "Both"
+   ],
+   "answer": 2,
+   "fact": "Sharks appeared about 450 million years ago"
+  },
+  {
+   "emoji": "🐘",
+   "text": "Which of these\ncan't jump?",
+   "options": [
+    "Kangaroo",
+    "Elephant",
+    "Cat"
+   ],
+   "answer": 1,
+   "fact": "Adult elephants keep one foot on the ground"
+  }
+ ],
+ "yt": {
+  "title": "Animal Quiz: How Many Do You Know? 🦒",
+  "description": "5 animal questions, easy to expert. How many did you get? Comment your score 👇\n\n#shorts #quiz #animals #facts #trivia",
+  "tags": [
+   "animal quiz",
+   "animal facts",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

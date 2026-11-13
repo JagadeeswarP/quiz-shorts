@@ -1,0 +1,84 @@
+{
+ "title": "SCIENCE QUIZ",
+ "hook1": "Easy to hard:",
+ "hook2": "how far can you go?",
+ "hook_emoji": "🧠",
+ "bg": [
+  "#065F46",
+  "#0EA5E9"
+ ],
+ "questions": [
+  {
+   "emoji": "🐙",
+   "text": "How many hearts\ndoes an octopus have?",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 2,
+   "fact": "2 pump blood to the gills, 1 to the body"
+  },
+  {
+   "emoji": "🪐",
+   "text": "Which planet spins\nbackwards?",
+   "options": [
+    "Mars",
+    "Venus",
+    "Jupiter"
+   ],
+   "answer": 1,
+   "fact": "On Venus, the sun rises in the west|🌅"
+  },
+  {
+   "emoji": "🌕",
+   "text": "Which is wider?",
+   "options": [
+    "Australia",
+    "The Moon",
+    "Same size"
+   ],
+   "answer": 0,
+   "fact": "Australia ~4,000 km vs Moon ~3,475 km"
+  },
+  {
+   "emoji": "🦴",
+   "text": "How many bones in\nan adult human?",
+   "options": [
+    "106",
+    "206",
+    "306"
+   ],
+   "answer": 1,
+   "fact": "Babies are born with about 270–300|👶"
+  },
+  {
+   "emoji": "🍓",
+   "text": "Which one is\nactually a berry?",
+   "options": [
+    "Strawberry",
+    "Banana",
+    "Raspberry"
+   ],
+   "answer": 1,
+   "fact": "Strawberries are NOT berries|🤯"
+  }
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 112,
+  "root": 220
+ },
+ "yt": {
+  "title": "Science Quiz: How Far Can You Go? 🧠 (Easy → Expert)",
+  "description": "5 science questions, easy to expert. How many did you get? Comment your score 👇\n\n#shorts #quiz #science #trivia #funfacts",
+  "tags": [
+   "science quiz",
+   "quiz",
+   "trivia",
+   "fun facts",
+   "shorts"
+  ]
+ }
+}

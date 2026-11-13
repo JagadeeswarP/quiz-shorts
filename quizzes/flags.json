@@ -1,0 +1,80 @@
+{
+ "title": "GUESS THE FLAG",
+ "hook1": "Can you name",
+ "hook2": "all 5 flags?",
+ "hook_emoji": "🌍",
+ "bg": [
+  "#1E3A8A",
+  "#7C3AED"
+ ],
+ "questions": [
+  {
+   "emoji": "🇯🇵",
+   "options": [
+    "China",
+    "Japan",
+    "South Korea"
+   ],
+   "answer": 1,
+   "fact": "The red circle = the sun|☀️"
+  },
+  {
+   "emoji": "🇧🇷",
+   "options": [
+    "Portugal",
+    "Argentina",
+    "Brazil"
+   ],
+   "answer": 2,
+   "fact": "27 stars: 26 states + the capital district|⭐"
+  },
+  {
+   "emoji": "🇰🇷",
+   "options": [
+    "South Korea",
+    "Taiwan",
+    "Mongolia"
+   ],
+   "answer": 0,
+   "fact": "The 4 symbols mean heaven, earth, water, fire"
+  },
+  {
+   "emoji": "🇮🇩",
+   "options": [
+    "Poland",
+    "Indonesia",
+    "Singapore"
+   ],
+   "answer": 1,
+   "fact": "Monaco's flag looks almost the same|🤯"
+  },
+  {
+   "emoji": "🇳🇵",
+   "options": [
+    "Bhutan",
+    "Sri Lanka",
+    "Nepal"
+   ],
+   "answer": 2,
+   "fact": "The only non-rectangle national flag|🔺"
+  }
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "bar",
+  "bpm": 118,
+  "root": 196
+ },
+ "yt": {
+  "title": "Can You Name All 5 Flags? 🌍 Flag Quiz (Easy → Expert)",
+  "description": "5 flags, easy to expert. Comment your score 👇\n\n#shorts #quiz #flags #geography #trivia",
+  "tags": [
+   "flag quiz",
+   "guess the flag",
+   "geography quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

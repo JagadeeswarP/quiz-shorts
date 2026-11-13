@@ -1,0 +1,84 @@
+{
+ "title": "CAPITAL CITIES",
+ "hook1": "Capital cities:",
+ "hook2": "can you get all 5?",
+ "hook_emoji": "🏛️",
+ "bg": [
+  "#0C4A6E",
+  "#14B8A6"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring",
+  "bpm": 122,
+  "root": 220
+ },
+ "questions": [
+  {
+   "emoji": "🇦🇺",
+   "text": "Capital of Australia?",
+   "options": [
+    "Sydney",
+    "Canberra",
+    "Melbourne"
+   ],
+   "answer": 1,
+   "fact": "Canberra was built as a compromise"
+  },
+  {
+   "emoji": "🇨🇦",
+   "text": "Capital of Canada?",
+   "options": [
+    "Toronto",
+    "Ottawa",
+    "Vancouver"
+   ],
+   "answer": 1,
+   "fact": "Chosen by Queen Victoria in 1857"
+  },
+  {
+   "emoji": "🇧🇷",
+   "text": "Capital of Brazil?",
+   "options": [
+    "Rio de Janeiro",
+    "São Paulo",
+    "Brasília"
+   ],
+   "answer": 2,
+   "fact": "Brasília was built in about 4 years"
+  },
+  {
+   "emoji": "🇹🇷",
+   "text": "Capital of Turkey?",
+   "options": [
+    "Istanbul",
+    "Ankara",
+    "Izmir"
+   ],
+   "answer": 1,
+   "fact": "Ankara became the capital in 1923"
+  },
+  {
+   "emoji": "🇨🇭",
+   "text": "Capital of Switzerland?",
+   "options": [
+    "Zurich",
+    "Geneva",
+    "Bern"
+   ],
+   "answer": 2,
+   "fact": "Officially it's called the 'federal city'"
+  }
+ ],
+ "yt": {
+  "title": "Capital Cities Quiz: Can You Get All 5? 🏛️",
+  "description": "5 capital cities, easy to expert. Comment your score 👇\n\n#shorts #quiz #geography #capitals #trivia",
+  "tags": [
+   "capital cities quiz",
+   "geography quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}
