@@ -1,0 +1,105 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "Animal myths:",
+ "hook2": "true or false?",
+ "hook_emoji": "🦇",
+ "bg": [
+  "#065F46",
+  "#A3E635"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring-left",
+  "bpm": 120,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "emoji": "🦇",
+   "text": "Bats are blind",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 1,
+   "fact": "Bats can see; many also use echolocation"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🦐",
+   "text": "A shrimp's heart\nis in its head",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "It sits in the head area of its body"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🦒",
+   "text": "Giraffe tongues are\ndark blue-purple",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "And about 45–50 cm long|👅"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🐧",
+   "text": "Penguins live at\nthe North Pole",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 1,
+   "fact": "Wild penguins live in the southern half of Earth"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🐌",
+   "text": "Snails have teeth",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "Thousands of tiny teeth on a ribbon-like tongue"
+  }
+ ],
+ "yt": {
+  "title": "True or False: Animal Myths 🦇",
+  "description": "Are bats blind? Do snails have teeth? Five animal claims, some myths and some real. Decide before the timer ends and comment your score 👇\n\n#shorts #quiz #animals #trueorfalse #facts",
+  "tags": [
+   "true or false",
+   "animal facts",
+   "animal myths",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "title": "GEOGRAPHY vs SPORTS",
+ "hook1": "Geography or sports:",
+ "hook2": "which do you know better?",
+ "hook_emoji": "🌍",
+ "bg": [
+  "#1E3A8A",
+  "#16A34A"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring",
+  "bpm": 124,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🌍",
+   "text": "GEOGRAPHY\nWhich is the largest continent?",
+   "say": "Geography. Which is the largest continent?",
+   "options": [
+    "Africa",
+    "Asia",
+    "Europe"
+   ],
+   "answer": 1,
+   "fact": "Asia covers about 30% of Earth's land"
+  },
+  {
+   "emoji": "⚽",
+   "text": "SPORTS\nPlayers per football team on the pitch?",
+   "say": "Sports. How many players does a football team have on the pitch?",
+   "options": [
+    "9",
+    "11",
+    "12"
+   ],
+   "answer": 1,
+   "fact": "10 outfield players + 1 goalkeeper"
+  },
+  {
+   "emoji": "🏜️",
+   "text": "GEOGRAPHY\nThe Sahara Desert is in…",
+   "say": "Geography. The Sahara Desert is in which continent?",
+   "options": [
+    "Asia",
+    "Africa",
+    "Australia"
+   ],
+   "answer": 1,
+   "fact": "It's about the size of the USA"
+  },
+  {
+   "emoji": "🏀",
+   "text": "SPORTS\nA basket from behind the arc is worth…",
+   "say": "Sports. A basket from behind the arc is worth how many points?",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "fact": "That's the three-point line"
+  },
+  {
+   "emoji": "🏔️",
+   "text": "GEOGRAPHY\nThe world's highest mountain?",
+   "say": "Geography. What's the world's highest mountain?",
+   "options": [
+    "K2",
+    "Everest",
+    "Kilimanjaro"
+   ],
+   "answer": 1,
+   "fact": "About 8,849 metres tall"
+  },
+  {
+   "emoji": "🎾",
+   "text": "SPORTS\nWimbledon is played on…",
+   "say": "Sports. What surface is Wimbledon played on?",
+   "options": [
+    "Clay",
+    "Grass",
+    "Hard court"
+   ],
+   "answer": 1,
+   "fact": "The oldest tennis tournament in the world"
+  }
+ ],
+ "yt": {
+  "title": "Do You Know More About Geography or Sports? 🌍⚽",
+  "description": "Three geography questions and three sports questions, mixed together. Keep score for each side and tell us which one won 👇\n\n#shorts #quiz #geography #sports #trivia",
+  "tags": [
+   "geography or sports",
+   "geography quiz",
+   "sports quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#0F172A",
+  "#7C3AED"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring",
+  "bpm": 128,
+  "root": 246.9,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🪐",
+   "text": "Which planet is the biggest?",
+   "options": [
+    "Saturn",
+    "Jupiter",
+    "Neptune"
+   ],
+   "answer": 1,
+   "fact": "Over 1,300 Earths could fit inside"
+  }
+ ],
+ "yt": {
+  "title": "Which Planet Is the Biggest? 🪐 (3 Seconds)",
+  "description": "One question, three seconds. Saturn, Jupiter or Neptune? Comment your answer before the reveal 👇\n\n#shorts #quiz #space #planets #trivia",
+  "tags": [
+   "space quiz",
+   "planets",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}
