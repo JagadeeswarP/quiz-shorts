@@ -1,4 +1,5 @@
 id,date,slot_ist,format,layout,topic,title,hook,questions,file,status,video_id,views
+0,2026-11-14,13,ANIM,mcq,Animal facts,Animal Quiz: How Many Do You Know?,Easy to expert: how far can you go?,5,animals,written,,
 1,2026-11-14,18,VS,versus,"Bigger, taller, faster",Which One? 5 Head-to-Head Battles,Pick the winner of each matchup.,5,bigger,planned,,
 2,2026-11-15,6,DUEL,mcq,Geography vs Sports,Do You Know More About Geography or Sports?,Score a point for each side: which do you know better?,6,duel-geo-sports,written,,
 3,2026-11-15,13,ONE,mcq/versus,Which planet is the biggest?,Which planet is the biggest?,"One question, 3 seconds. Comment your answer!",1,one-biggest-planet,written,,
