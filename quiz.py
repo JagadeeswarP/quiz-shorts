@@ -65,6 +65,66 @@ def rr(d, box, r, fill, outline=None, w=0):
 
 def clean(s): return re.sub(r'\|.*$', '', s).replace('\n', ' ').strip()
 
+
+# ---------------- stick man reactor ----------------
+def stick(d, cx, fy, h, mood, t, face_dir=1):
+    """cx = centre x, fy = foot y, h = total height. mood: wave | think | nervous | happy | point"""
+    bob = 0
+    if mood == 'happy': bob = -abs(math.sin(t * 9)) * h * 0.10
+    fy = fy + bob
+    hr = h * 0.15; neck = fy - h * 0.62; hip = fy - h * 0.32
+    hx, hy = cx, neck - hr
+    def L(pts, w):
+        d.line(pts, fill=(255, 255, 255), width=int(w + h * 0.035), joint='curve')
+        d.line(pts, fill=INK, width=int(w), joint='curve')
+    lw = max(4, h * 0.045)
+    # legs
+    sp = h * 0.13
+    if mood == 'happy': L([(cx - sp, fy), (cx, hip), (cx + sp, fy)], lw)
+    else: L([(cx - sp * 0.8, fy), (cx, hip), (cx + sp * 0.8, fy)], lw)
+    L([(cx, hip), (cx, neck)], lw)
+    sh = neck + h * 0.05; a = h * 0.22
+    if mood == 'wave':
+        ang = math.sin(t * 10) * 0.35
+        L([(cx, sh), (cx - a * 0.9, sh + a * 0.8)], lw)
+        L([(cx, sh), (cx + a * 0.7, sh - a * 0.4), (cx + a * 0.7 + math.sin(ang) * a * 0.6, sh - a * 0.4 - math.cos(ang) * a * 0.7)], lw)
+    elif mood == 'think':
+        L([(cx, sh), (cx - a * 0.8, sh + a * 0.85)], lw)
+        L([(cx, sh), (cx + a * 0.75, sh + a * 0.35), (cx + hr * 0.5, hy + hr * 0.95)], lw)
+    elif mood == 'nervous':
+        L([(cx, sh), (cx - a * 0.6, sh - a * 0.5), (cx - hr * 0.9, hy + hr * 0.3)], lw)
+        L([(cx, sh), (cx + a * 0.6, sh - a * 0.5), (cx + hr * 0.9, hy + hr * 0.3)], lw)
+    elif mood == 'happy':
+        L([(cx, sh), (cx - a * 1.05, sh - a * 0.75)], lw); L([(cx, sh), (cx + a * 1.05, sh - a * 0.75)], lw)
+    else:  # point
+        L([(cx, sh), (cx - a * 0.8, sh + a * 0.85)], lw)
+        L([(cx, sh), (cx + face_dir * a * 1.1, sh - a * 0.55)], lw)
+    # head
+    d.ellipse((hx - hr - h * 0.017, hy - hr - h * 0.017, hx + hr + h * 0.017, hy + hr + h * 0.017), fill=(255, 255, 255))
+    d.ellipse((hx - hr, hy - hr, hx + hr, hy + hr), fill=(255, 236, 200), outline=INK, width=int(lw * 0.8))
+    e = hr * 0.38; ey = hy - hr * 0.12; er = max(2, hr * 0.12)
+    if mood == 'think':
+        for sx in (-1, 1): d.ellipse((hx + sx * e - er, ey - hr * 0.18 - er, hx + sx * e + er, ey - hr * 0.18 + er), fill=INK)
+        d.line([(hx - hr * 0.3, hy + hr * 0.45), (hx + hr * 0.25, hy + hr * 0.38)], fill=INK, width=int(lw * 0.6))
+        d.line([(hx - e - er * 1.6, ey - hr * 0.55), (hx - e + er * 1.6, ey - hr * 0.62)], fill=INK, width=int(lw * 0.5))
+    elif mood == 'nervous':
+        for sx in (-1, 1): d.ellipse((hx + sx * e - er * 1.5, ey - er * 1.5, hx + sx * e + er * 1.5, ey + er * 1.5), fill=(255, 255, 255), outline=INK, width=int(lw * 0.4))
+        for sx in (-1, 1): d.ellipse((hx + sx * e - er * 0.6, ey - er * 0.6, hx + sx * e + er * 0.6, ey + er * 0.6), fill=INK)
+        d.arc((hx - hr * 0.35, hy + hr * 0.3, hx + hr * 0.35, hy + hr * 0.75), 200, 340, fill=INK, width=int(lw * 0.6))
+        d.ellipse((hx + hr * 0.95, hy - hr * 0.5, hx + hr * 1.25, hy - hr * 0.05), fill=(120, 200, 255))
+    elif mood == 'happy':
+        for sx in (-1, 1): d.arc((hx + sx * e - er * 1.6, ey - er * 1.4, hx + sx * e + er * 1.6, ey + er * 1.8), 200, 340, fill=INK, width=int(lw * 0.55))
+        d.chord((hx - hr * 0.5, hy + hr * 0.05, hx + hr * 0.5, hy + hr * 0.75), 0, 180, fill=INK)
+    else:
+        for sx in (-1, 1): d.ellipse((hx + sx * e - er, ey - er, hx + sx * e + er, ey + er), fill=INK)
+        d.arc((hx - hr * 0.45, hy + hr * 0.05, hx + hr * 0.45, hy + hr * 0.6), 20, 160, fill=INK, width=int(lw * 0.6))
+    return hx, hy, hr
+
+def bubble(d, x, y, txt, size):
+    tw = d.textlength(txt, font=F(size))
+    rr(d, (x - tw / 2 - 22, y - size * 0.8, x + tw / 2 + 22, y + size * 0.8), 30, (255, 255, 255), outline=INK, w=4)
+    d.text((x, y), txt, font=F(size), fill=INK, anchor='mm')
+
 # ---------------- timeline ----------------
 def plan(q, voice_on=True):
     st = q.get('style', {}); vo = st.get('voice', 'af_heart')
@@ -88,7 +148,7 @@ def plan(q, voice_on=True):
         rev = max(1.4, d2 + 0.25)
         audio.append((t + think0 + THINK + 0.08, a2))
         segs.append(('q', k, t, think0 + THINK + rev, think0)); t += think0 + THINK + rev
-    a, d = tl('How many did you get? Comment your score!')
+    a, d = tl('How many did you get? Comment your score, and follow for a new quiz every day!')
     audio.append((t + 0.15, a)); END = max(2.0, d + 0.6)
     segs.append(('end', -1, t, END)); t += END
     return segs, audio, t
@@ -130,21 +190,28 @@ def frame(q, BG, segs, t):
         s = back(lt / 0.45)
         text_mixed(d, im, (540, 640), q['hook1'], 118 * s, (255, 255, 255), stroke=10)
         text_mixed(d, im, (540, 800), q['hook2'], 96 * s, (255, 222, 74), stroke=10)
-        e = emoji_img(q['hook_emoji'], 260 * s)
-        im.alpha_composite(e, (540 - e.width // 2, 1000)); return im
+        e = emoji_img(q['hook_emoji'], 220 * s)
+        im.alpha_composite(e, (700 - e.width // 2, 1080))
+        if s > 0.2: stick(d, 380, 1520, 470 * min(1, s), 'wave', t)
+        return im
     if kind == 'end':
         s = back(lt / 0.4)
         text_mixed(d, im, (540, 640), 'How many did', 100 * s, (255, 255, 255), stroke=9)
         text_mixed(d, im, (540, 770), 'you get?', 110 * s, (255, 222, 74), stroke=9)
-        text_mixed(d, im, (540, 980), 'Comment your score|👇', 64 * s, (255, 255, 255), stroke=6)
+        text_mixed(d, im, (540, 900), 'Comment your score|👇', 60 * s, (255, 255, 255), stroke=6)
+        fa = ease((lt - 0.6) / 0.3)
+        if fa > 0:
+            rr(d, (540 - 330 * fa, 1330, 540 + 330 * fa, 1430), 50, (255, 60, 70))
+            if fa > 0.9: d.text((540, 1380), 'Follow for a daily quiz!', font=F(48), fill=(255, 255, 255), anchor='mm')
+            stick(d, 200, 1720, 300, 'point', t)
         chips = min(n, 10)
         for i in range(chips):
             x = 540 + (i - (chips - 1) / 2) * (900 / max(chips, 5))
             a = ease((lt - 0.3 - i * 0.06) / 0.25)
             if a > 0:
-                rr(d, (x - 40, 1130 - 40 * a, x + 40, 1130 + 40 * a), 22, (255, 255, 255, 230))
+                rr(d, (x - 40, 1080 - 40 * a, x + 40, 1080 + 40 * a), 22, (255, 255, 255, 230))
                 lab = str(i + 1) if n <= 10 else str((i + 1) * n // chips)
-                d.text((x, 1130), lab, font=F(44), fill=(40, 30, 90), anchor='mm')
+                d.text((x, 1080), lab, font=F(44), fill=(40, 30, 90), anchor='mm')
         return im
     x = qs[k]; think0 = seg[4]
     lay = x.get('layout', 'mcq')
@@ -241,6 +308,16 @@ def frame(q, BG, segs, t):
             fs = 40
             while fs > 24 and d.textlength(opt, font=F(fs)) > 380: fs -= 4
             d.text((cx, cy2 + 110 * sc), opt, font=F(fs * sc), fill=tc, anchor='mm')
+    # stick man reactor (top corner, away from the timer)
+    tm0 = q.get('style', {}).get('timer', 'ring')
+    sx = 965 if tm0 == 'ring-left' else (100 if tm0 == 'bar' else 115)
+    if lt < think0: mood = 'point' if lt > 0.3 else 'wave'
+    elif lt < think0 + THINK - 1.0: mood = 'think'
+    elif lt < think0 + THINK: mood = 'nervous'
+    else: mood = 'happy'
+    hx, hy, hr = stick(d, sx, 478, 265, mood, t, face_dir=1 if sx < 540 else -1)
+    if mood == 'think': bubble(d, hx + (60 if sx < 540 else -60), hy - hr - 40, '?', 40)
+    if mood == 'happy' and lt - think0 - THINK < 1.2: bubble(d, hx + (95 if sx < 540 else -95), hy - hr - 40, 'YES!', 32)
     # timer
     if think0 <= lt < think0 + THINK:
         u = (lt - think0) / THINK; rem = 3 - int(lt - think0)

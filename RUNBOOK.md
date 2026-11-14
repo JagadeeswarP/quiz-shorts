@@ -33,5 +33,6 @@ Repo: `JagadeeswarP/quiz-shorts` (public, used only as a temporary file host plu
 - No logos, posters, screenshots, characters, song lyrics or outside music. Emoji, plain text and synthesised sound only.
 - Vary `style`, `bg` and `layout` between consecutive quizzes. Keep text short, timer 3 s, length 30–45 s.
 - Every quiz gets its own `yt.description`: one or two unique sentences about that quiz's actual content, then the hashtags. Never reuse a description template word for word. Titles must also be unique.
+- Stick man reactor is built in (waves on the hook, thinks during the timer, gets nervous on the last second, celebrates at the answer, points to "Follow for a daily quiz!" at the end). Keep it; don't place new elements in the top corners where he stands.
 - Narration is always on (Kokoro `af_heart`); the voice reads the hook, each question and the answer.
 - Not made for kids; nothing violent, adult or political.
