@@ -1,0 +1,287 @@
+{
+ "title": "20-QUESTION CHALLENGE",
+ "hook1": "20 questions:",
+ "hook2": "easy to expert. Go!",
+ "hook_emoji": "🏆",
+ "bg": [
+  "#3B0764",
+  "#0F766E"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "bar",
+  "bpm": 118,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🌈",
+   "text": "How many colours are\nin a rainbow?",
+   "options": [
+    "5",
+    "7",
+    "9"
+   ],
+   "answer": 1,
+   "fact": "Red to violet, as Newton named them"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🧊",
+   "text": "Water freezes at 0 °C",
+   "say": "True or false? Water freezes at zero degrees Celsius.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "That's 32 °F at normal air pressure"
+  },
+  {
+   "emoji": "🕷️",
+   "text": "How many legs does\na spider have?",
+   "options": [
+    "6",
+    "8",
+    "10"
+   ],
+   "answer": 1,
+   "fact": "Spiders aren't insects: insects have 6"
+  },
+  {
+   "layout": "tiles",
+   "text": "Which one is a mammal?",
+   "options": [
+    "Shark",
+    "Whale",
+    "Turtle",
+    "Pufferfish"
+   ],
+   "opt_emoji": [
+    "🦈",
+    "🐋",
+    "🐢",
+    "🐡"
+   ],
+   "answer": 1,
+   "fact": "Whales breathe air and feed their young milk"
+  },
+  {
+   "emoji": "🐼",
+   "text": "What do giant pandas\nmostly eat?",
+   "options": [
+    "Fish",
+    "Bamboo",
+    "Berries"
+   ],
+   "answer": 1,
+   "fact": "Bamboo is almost their whole diet|🎋"
+  },
+  {
+   "layout": "versus",
+   "text": "Which has more legs?",
+   "options": [
+    "Octopus",
+    "Crab"
+   ],
+   "opt_emoji": [
+    "🐙",
+    "🦀"
+   ],
+   "answer": 1,
+   "fact": "8 walking legs plus 2 claws = 10",
+   "say_answer": "The crab! Ten legs, counting its two claws."
+  },
+  {
+   "emoji": "🌊",
+   "text": "Which ocean lies between\nAfrica and Australia?",
+   "options": [
+    "Atlantic",
+    "Arctic",
+    "Indian"
+   ],
+   "answer": 2,
+   "fact": "The third-largest ocean on Earth"
+  },
+  {
+   "emoji": "🏅",
+   "text": "How many rings are on\nthe Olympic flag?",
+   "options": [
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "fact": "First flown at the 1920 Games"
+  },
+  {
+   "emoji": "🇪🇬",
+   "text": "What's the capital\nof Egypt?",
+   "options": [
+    "Alexandria",
+    "Giza",
+    "Cairo"
+   ],
+   "answer": 2,
+   "fact": "Cairo sits on the River Nile"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🔊",
+   "text": "Sound travels faster in\nwater than in air",
+   "say": "True or false? Sound travels faster in water than in air.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "Roughly 4 times faster"
+  },
+  {
+   "emoji": "🦩",
+   "text": "Why are flamingos pink?",
+   "options": [
+    "Their food",
+    "Sunlight",
+    "Their genes"
+   ],
+   "answer": 0,
+   "fact": "Pigments in the algae and shrimp they eat"
+  },
+  {
+   "emoji": "🥇",
+   "text": "Chemical symbol for gold?",
+   "say": "What is the chemical symbol for gold?",
+   "options": [
+    "Go",
+    "Au",
+    "Gd"
+   ],
+   "answer": 1,
+   "fact": "From the Latin word 'aurum'"
+  },
+  {
+   "layout": "versus",
+   "text": "Which is older?",
+   "options": [
+    "Oxford University",
+    "The Aztec capital"
+   ],
+   "opt_emoji": [
+    "🎓",
+    "🦅"
+   ],
+   "answer": 0,
+   "fact": "Oxford taught by 1096; Tenochtitlan began in 1325",
+   "say": "Which is older: Oxford University, or the Aztec capital, Tenochtitlan?",
+   "say_answer": "Oxford! It was teaching students over 200 years earlier."
+  },
+  {
+   "emoji": "🦴",
+   "text": "Longest bone in\nthe human body?",
+   "say": "What's the longest bone in the human body?",
+   "options": [
+    "Tibia",
+    "Humerus",
+    "Femur"
+   ],
+   "answer": 2,
+   "fact": "Your thigh bone: about a quarter of your height"
+  },
+  {
+   "emoji": "🗺️",
+   "text": "Smallest country\nin the world?",
+   "say": "What's the smallest country in the world?",
+   "options": [
+    "Monaco",
+    "Vatican City",
+    "San Marino"
+   ],
+   "answer": 1,
+   "fact": "Under half a square kilometre"
+  },
+  {
+   "emoji": "🎹",
+   "text": "How many keys on a\nstandard piano?",
+   "options": [
+    "76",
+    "88",
+    "96"
+   ],
+   "answer": 1,
+   "fact": "52 white keys and 36 black"
+  },
+  {
+   "emoji": "🐝",
+   "text": "How many eyes does\na honeybee have?",
+   "options": [
+    "2",
+    "3",
+    "5"
+   ],
+   "answer": 2,
+   "fact": "2 big compound eyes + 3 small ones on top"
+  },
+  {
+   "emoji": "💨",
+   "text": "Most common gas in\nthe air we breathe?",
+   "say": "What's the most common gas in the air we breathe?",
+   "options": [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon dioxide"
+   ],
+   "answer": 1,
+   "fact": "About 78% of air is nitrogen"
+  },
+  {
+   "emoji": "🧪",
+   "text": "Which letter is in no\nchemical element symbol?",
+   "say": "Which letter doesn't appear in any chemical element symbol?",
+   "options": [
+    "K",
+    "Z",
+    "J"
+   ],
+   "answer": 2,
+   "fact": "Q is the only other missing letter"
+  },
+  {
+   "layout": "versus",
+   "text": "Cleopatra lived closer\nin time to…",
+   "say": "Cleopatra lived closer in time to which: the Moon landing, or the building of the Great Pyramid?",
+   "options": [
+    "Moon landing",
+    "Great Pyramid"
+   ],
+   "opt_emoji": [
+    "🚀",
+    "🔺"
+   ],
+   "answer": 0,
+   "fact": "The pyramid was already about 2,500 years old",
+   "say_answer": "The Moon landing!"
+  }
+ ],
+ "yt": {
+  "title": "20-Question Challenge: How Far Can You Get? 🏆",
+  "description": "Twenty brand-new questions that start easy and finish at expert: spider legs, piano keys, honeybee eyes and a Cleopatra timeline twist. Keep count and comment your score out of 20 👇\n\n#shorts #quiz #trivia #challenge #generalknowledge",
+  "tags": [
+   "20 question challenge",
+   "general knowledge quiz",
+   "trivia challenge",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}
