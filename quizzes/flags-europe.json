@@ -1,0 +1,26 @@
+{
+ "title": "EUROPE FLAGS",
+ "hook1": "Europe edition:",
+ "hook2": "can you name all 5?",
+ "hook_emoji": "🇪🇺",
+ "bg": ["#4C1D95", "#DC2626"],
+ "style": {"pattern": "dots", "timer": "ring-left", "bpm": 126, "root": 220, "voice": "af_heart"},
+ "ask": "Which country's flag is this?",
+ "questions": [
+  {"emoji": "🇮🇹", "options": ["Ireland", "Italy", "Mexico"], "answer": 1,
+   "fact": "Mexico uses the same colours, plus an eagle"},
+  {"emoji": "🇨🇭", "options": ["Denmark", "Austria", "Switzerland"], "answer": 2,
+   "fact": "One of only two square national flags|⬜"},
+  {"emoji": "🇩🇰", "options": ["Denmark", "Norway", "Sweden"], "answer": 0,
+   "fact": "Often called the oldest national flag still in use"},
+  {"emoji": "🇵🇹", "options": ["Spain", "Portugal", "Romania"], "answer": 1,
+   "fact": "Behind the shield: an old navigation tool|🧭"},
+  {"emoji": "🇲🇹", "options": ["Monaco", "Cyprus", "Malta"], "answer": 2,
+   "fact": "The cross in the corner is the George Cross, awarded in 1942"}
+ ],
+ "yt": {
+  "title": "Guess These 5 European Flags 🇪🇺 (Easy → Expert)",
+  "description": "From Italy to a tiny island nation: five European flags, each with a quick fact about its design. How many did you get? 👇\n\n#shorts #quiz #flags #europe #geography",
+  "tags": ["european flags", "flag quiz", "guess the flag", "europe quiz", "geography quiz", "shorts"]
+ }
+}
