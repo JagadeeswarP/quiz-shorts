@@ -1,0 +1,86 @@
+{
+ "title": "WORLD CUP WINNERS",
+ "hook1": "World Cup winners:",
+ "hook2": "can you get all 5?",
+ "hook_emoji": "🏆",
+ "bg": [
+  "#14532D",
+  "#22C55E"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 124,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🏆",
+   "text": "Who won the\n2022 World Cup?",
+   "options": [
+    "Argentina",
+    "France",
+    "Brazil"
+   ],
+   "answer": 0,
+   "fact": "They beat France on penalties in Qatar"
+  },
+  {
+   "emoji": "⭐",
+   "text": "Most World Cup titles?",
+   "options": [
+    "Germany",
+    "Italy",
+    "Brazil"
+   ],
+   "answer": 2,
+   "fact": "Five titles, the last in 2002",
+   "say": "Which country has won the most World Cups?"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Who won the\n2018 World Cup?",
+   "options": [
+    "Croatia",
+    "France",
+    "Belgium"
+   ],
+   "answer": 1,
+   "fact": "They beat Croatia 4–2 in the final"
+  },
+  {
+   "emoji": "🥅",
+   "text": "Who won the\n2010 World Cup?",
+   "options": [
+    "Netherlands",
+    "Germany",
+    "Spain"
+   ],
+   "answer": 2,
+   "fact": "Spain's first ever World Cup title"
+  },
+  {
+   "emoji": "🕰️",
+   "text": "Who won the first\nWorld Cup in 1930?",
+   "options": [
+    "Uruguay",
+    "Argentina",
+    "Italy"
+   ],
+   "answer": 0,
+   "fact": "Uruguay hosted it too"
+  }
+ ],
+ "yt": {
+  "title": "Football Quiz: World Cup Winners ⚽🏆",
+  "description": "From Qatar 2022 back to the very first tournament in 1930: five World Cup winners to name. How many did you know? 👇\n\n#shorts #quiz #football #worldcup #soccer",
+  "tags": [
+   "world cup quiz",
+   "football quiz",
+   "soccer quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "title": "5TH GRADE SCIENCE",
+ "hook1": "5th-grade science:",
+ "hook2": "can you get all 5?",
+ "hook_emoji": "🔬",
+ "bg": [
+  "#4338CA",
+  "#22D3EE"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "bar",
+  "bpm": 114,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "☀️",
+   "text": "What's at the centre of\nour solar system?",
+   "options": [
+    "Earth",
+    "The Sun",
+    "The Moon"
+   ],
+   "answer": 1,
+   "fact": "It holds about 99.8% of the mass"
+  },
+  {
+   "emoji": "🐛",
+   "text": "A caterpillar becomes a…",
+   "options": [
+    "Butterfly",
+    "Beetle",
+    "Bee"
+   ],
+   "answer": 0,
+   "fact": "The change is called metamorphosis",
+   "say": "A caterpillar turns into a what?"
+  },
+  {
+   "emoji": "🫁",
+   "text": "Which organ helps\nyou breathe?",
+   "options": [
+    "Liver",
+    "Kidneys",
+    "Lungs"
+   ],
+   "answer": 2,
+   "fact": "About 12–20 breaths a minute at rest"
+  },
+  {
+   "emoji": "🔌",
+   "text": "Which conducts\nelectricity best?",
+   "options": [
+    "Plastic",
+    "Copper",
+    "Wood"
+   ],
+   "answer": 1,
+   "fact": "That's why wires are made of it"
+  },
+  {
+   "emoji": "🥤",
+   "text": "Vapour turning back\ninto water is…",
+   "options": [
+    "Evaporation",
+    "Condensation",
+    "Melting"
+   ],
+   "answer": 1,
+   "fact": "Why cold glasses get wet outside",
+   "say": "When water vapour turns back into liquid, it's called what?"
+  }
+ ],
+ "yt": {
+  "title": "Are You Smarter Than a 5th Grader? (Science) 🔬",
+  "description": "Planets, butterflies, lungs, wires and that water on a cold glass: five questions from a fifth-grade science class 👇\n\n#shorts #quiz #science #5thgrader #school",
+  "tags": [
+   "5th grader quiz",
+   "science quiz",
+   "school quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

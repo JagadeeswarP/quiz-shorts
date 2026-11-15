@@ -1,0 +1,103 @@
+{
+ "title": "ANIMALS vs SPACE",
+ "hook1": "Animals or space:",
+ "hook2": "which do you know better?",
+ "hook_emoji": "🦁",
+ "bg": [
+  "#312E81",
+  "#B45309"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 116,
+  "root": 185,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🐄",
+   "text": "ANIMALS\nA baby cow is called a…",
+   "say": "Animals. A baby cow is called a what?",
+   "options": [
+    "Foal",
+    "Calf",
+    "Kid"
+   ],
+   "answer": 1,
+   "fact": "A baby horse is a foal"
+  },
+  {
+   "emoji": "🔴",
+   "text": "SPACE\nWhich is the Red Planet?",
+   "say": "Space. Which planet is called the Red Planet?",
+   "options": [
+    "Mars",
+    "Venus",
+    "Jupiter"
+   ],
+   "answer": 0,
+   "fact": "Rusty iron in its soil makes it red"
+  },
+  {
+   "emoji": "🐫",
+   "text": "ANIMALS\nA camel's hump stores…",
+   "say": "Animals. What does a camel store in its hump?",
+   "options": [
+    "Water",
+    "Air",
+    "Fat"
+   ],
+   "answer": 2,
+   "fact": "The fat can be used for energy"
+  },
+  {
+   "emoji": "☀️",
+   "text": "SPACE\nPlanets in our solar system?",
+   "say": "Space. How many planets are in our solar system?",
+   "options": [
+    "7",
+    "8",
+    "9"
+   ],
+   "answer": 1,
+   "fact": "Pluto became a dwarf planet in 2006"
+  },
+  {
+   "emoji": "🐬",
+   "text": "ANIMALS\nHow do dolphins sleep?",
+   "say": "Animals. How do dolphins sleep?",
+   "options": [
+    "Upside down",
+    "Half a brain at a time",
+    "They never sleep"
+   ],
+   "answer": 1,
+   "fact": "One eye stays open to watch for danger"
+  },
+  {
+   "emoji": "🌕",
+   "text": "SPACE\nFirst person on the Moon?",
+   "say": "Space. Who was the first person to walk on the Moon?",
+   "options": [
+    "Buzz Aldrin",
+    "Yuri Gagarin",
+    "Neil Armstrong"
+   ],
+   "answer": 2,
+   "fact": "July 1969, on Apollo 11"
+  }
+ ],
+ "yt": {
+  "title": "Do You Know More About Animals or Space? 🦁🚀",
+  "description": "Camel humps and sleeping dolphins against the Red Planet and the first Moonwalk. Score each side and tell us which won 👇\n\n#shorts #quiz #animals #space #trivia",
+  "tags": [
+   "animals or space",
+   "animal quiz",
+   "space quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

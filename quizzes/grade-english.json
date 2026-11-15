@@ -1,0 +1,87 @@
+{
+ "title": "5TH GRADE ENGLISH",
+ "hook1": "5th-grade English:",
+ "hook2": "can you get all 5?",
+ "hook_emoji": "📚",
+ "bg": [
+  "#1D4ED8",
+  "#93C5FD"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring",
+  "bpm": 112,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "✍️",
+   "text": "Which is spelled\ncorrectly?",
+   "options": [
+    "Becuase",
+    "Because",
+    "Becouse"
+   ],
+   "answer": 1,
+   "fact": "B-E-C-A-U-S-E"
+  },
+  {
+   "emoji": "👧",
+   "text": "Plural of 'child'?",
+   "options": [
+    "Childs",
+    "Childes",
+    "Children"
+   ],
+   "answer": 2,
+   "fact": "Irregular, like mice and teeth",
+   "say": "What is the plural of child?"
+  },
+  {
+   "emoji": "🔤",
+   "text": "Which word is a noun?",
+   "options": [
+    "Table",
+    "Run",
+    "Happy"
+   ],
+   "answer": 0,
+   "fact": "A noun names a person, place or thing"
+  },
+  {
+   "emoji": "🏺",
+   "text": "Opposite of 'ancient'?",
+   "options": [
+    "Old",
+    "Modern",
+    "Huge"
+   ],
+   "answer": 1,
+   "fact": "Ancient means very, very old",
+   "say": "What is the opposite of ancient?"
+  },
+  {
+   "emoji": "📝",
+   "text": "Which is spelled\ncorrectly?",
+   "options": [
+    "Neccessary",
+    "Necesary",
+    "Necessary"
+   ],
+   "answer": 2,
+   "fact": "One collar, two sleeves: 1 c, 2 s"
+  }
+ ],
+ "yt": {
+  "title": "Are You Smarter Than a 5th Grader? (English & Spelling) 📚",
+  "description": "Spelling traps, tricky plurals and a bit of grammar from a fifth-grade English class. Five questions, comment your score 👇\n\n#shorts #quiz #english #spelling #5thgrader",
+  "tags": [
+   "5th grader quiz",
+   "spelling quiz",
+   "english quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

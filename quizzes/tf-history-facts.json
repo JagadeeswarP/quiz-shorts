@@ -1,0 +1,110 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "History facts:",
+ "hook2": "true or false?",
+ "hook_emoji": "📜",
+ "bg": [
+  "#44403C",
+  "#D97706"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring",
+  "bpm": 120,
+  "root": 185,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🦖",
+   "text": "T. rex lived closer to us\nthan to Stegosaurus",
+   "say": "True or false? T. rex lived closer to us than to Stegosaurus",
+   "answer": 0,
+   "fact": "Stegosaurus was gone about 80 million years earlier"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "⚔️",
+   "text": "Vikings wore horned\nhelmets in battle",
+   "say": "True or false? Vikings wore horned helmets in battle",
+   "answer": 1,
+   "fact": "That look came from 1800s costumes"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "✈️",
+   "text": "The first plane flight was\nshorter than a jumbo jet",
+   "say": "True or false? The Wright brothers' first flight was shorter than a jumbo jet's wingspan.",
+   "answer": 0,
+   "fact": "About 37 metres, in 12 seconds"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🗽",
+   "text": "The Statue of Liberty\nwas always green",
+   "say": "True or false? The Statue of Liberty was always green",
+   "answer": 1,
+   "fact": "It started out shiny copper-brown"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🥫",
+   "text": "Cans were invented before\nthe can opener",
+   "say": "True or false? Cans were invented before the can opener",
+   "answer": 0,
+   "fact": "People opened them with hammers and chisels"
+  }
+ ],
+ "yt": {
+  "title": "True or False: History Facts That Sound Fake 📜",
+  "description": "T. rex and Stegosaurus, Viking helmets, the first flight and a statue that changed colour. Real history or myth? 👇\n\n#shorts #quiz #history #trueorfalse #facts",
+  "tags": [
+   "true or false",
+   "history facts",
+   "history quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

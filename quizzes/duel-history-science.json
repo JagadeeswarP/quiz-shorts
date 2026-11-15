@@ -1,0 +1,103 @@
+{
+ "title": "HISTORY vs SCIENCE",
+ "hook1": "History or science:",
+ "hook2": "which do you know better?",
+ "hook_emoji": "🏛️",
+ "bg": [
+  "#78350F",
+  "#0891B2"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 122,
+  "root": 233.1,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🇺🇸",
+   "text": "HISTORY\nThe first US president?",
+   "say": "History. Who was the first president of the United States?",
+   "options": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Thomas Jefferson"
+   ],
+   "answer": 1,
+   "fact": "He took office in 1789"
+  },
+  {
+   "emoji": "🌡️",
+   "text": "SCIENCE\nWater boils at… (sea level)",
+   "say": "Science. At sea level, water boils at how many degrees Celsius?",
+   "options": [
+    "90 °C",
+    "100 °C",
+    "120 °C"
+   ],
+   "answer": 1,
+   "fact": "That's 212 °F"
+  },
+  {
+   "emoji": "🧱",
+   "text": "HISTORY\nThe Great Wall is in…",
+   "say": "History. The Great Wall is in which country?",
+   "options": [
+    "Japan",
+    "China",
+    "India"
+   ],
+   "answer": 1,
+   "fact": "Built and rebuilt over many centuries"
+  },
+  {
+   "emoji": "🍎",
+   "text": "SCIENCE\nWhat pulls things down\nto Earth?",
+   "say": "Science. What force pulls things down to Earth?",
+   "options": [
+    "Gravity",
+    "Magnetism",
+    "Friction"
+   ],
+   "answer": 0,
+   "fact": "It keeps the Moon in orbit too"
+  },
+  {
+   "emoji": "🚢",
+   "text": "HISTORY\nThe Titanic sank in…",
+   "say": "History. In which year did the Titanic sink?",
+   "options": [
+    "1905",
+    "1921",
+    "1912"
+   ],
+   "answer": 2,
+   "fact": "On its very first voyage"
+  },
+  {
+   "emoji": "🌱",
+   "text": "SCIENCE\nPlants take in which gas\nto make food?",
+   "say": "Science. Which gas do plants take in to make food?",
+   "options": [
+    "Carbon dioxide",
+    "Oxygen",
+    "Helium"
+   ],
+   "answer": 0,
+   "fact": "They give out oxygen in return"
+  }
+ ],
+ "yt": {
+  "title": "Do You Know More About History or Science? 🏛️🔬",
+  "description": "Presidents, the Great Wall and the Titanic go up against boiling water, gravity and plants. Keep score for each side 👇\n\n#shorts #quiz #history #science #trivia",
+  "tags": [
+   "history or science",
+   "history quiz",
+   "science quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

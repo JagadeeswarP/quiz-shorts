@@ -1,0 +1,42 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#1E293B",
+  "#DC2626"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "bar",
+  "bpm": 130,
+  "root": 233.1,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🗺️",
+   "text": "Which country is\nthe largest?",
+   "options": [
+    "Canada",
+    "Russia",
+    "China"
+   ],
+   "answer": 1,
+   "fact": "About 17 million km² of land",
+   "say": "Which country is the largest by area?"
+  }
+ ],
+ "yt": {
+  "title": "Which Country Is the Largest? 🗺️ (3 Seconds)",
+  "description": "Canada, Russia or China: one of them covers more land than any other country on Earth. Lock in your answer before the reveal 👇\n\n#shorts #quiz #geography #countries #trivia",
+  "tags": [
+   "geography quiz",
+   "largest country",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

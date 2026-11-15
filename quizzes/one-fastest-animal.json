@@ -1,0 +1,42 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#422006",
+  "#EAB308"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring",
+  "bpm": 132,
+  "root": 246.9,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "💨",
+   "text": "Fastest land animal?",
+   "options": [
+    "Lion",
+    "Horse",
+    "Cheetah"
+   ],
+   "answer": 2,
+   "fact": "Around 100 km/h in short bursts",
+   "say": "What is the fastest land animal?"
+  }
+ ],
+ "yt": {
+  "title": "What's the Fastest Land Animal? 💨 (3 Seconds)",
+  "description": "Lion, horse or cheetah: which one wins a sprint on land? One question, three seconds 👇\n\n#shorts #quiz #animals #fastest #trivia",
+  "tags": [
+   "animal quiz",
+   "fastest animal",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "title": "DINOSAUR QUIZ",
+ "hook1": "Dinosaur quiz:",
+ "hook2": "can you get all 5?",
+ "hook_emoji": "🦕",
+ "bg": [
+  "#365314",
+  "#A16207"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring-left",
+  "bpm": 110,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🦕",
+   "text": "Which dinosaur had plates\nalong its back?",
+   "options": [
+    "Triceratops",
+    "Stegosaurus",
+    "Velociraptor"
+   ],
+   "answer": 1,
+   "fact": "Its tail had sharp spikes too"
+  },
+  {
+   "emoji": "☄️",
+   "text": "What most likely wiped\nout the dinosaurs?",
+   "options": [
+    "An ice age",
+    "An asteroid",
+    "A flood"
+   ],
+   "answer": 1,
+   "fact": "Its crater lies under Mexico's Yucatán coast"
+  },
+  {
+   "emoji": "⏳",
+   "text": "When did the last big\ndinosaurs die out?",
+   "options": [
+    "6,000 years ago",
+    "66 million years ago",
+    "6 billion years ago"
+   ],
+   "answer": 1,
+   "fact": "Long before the first humans",
+   "say": "When did the last of the big dinosaurs die out?"
+  },
+  {
+   "emoji": "🐦",
+   "text": "Which animals today are\nliving dinosaurs?",
+   "options": [
+    "Lizards",
+    "Crocodiles",
+    "Birds"
+   ],
+   "answer": 2,
+   "fact": "They evolved from small feathered dinosaurs"
+  },
+  {
+   "emoji": "🦖",
+   "text": "'Dinosaur' roughly means…",
+   "options": [
+    "Giant bird",
+    "Terrible lizard",
+    "Old monster"
+   ],
+   "answer": 1,
+   "fact": "Named by Richard Owen in 1842",
+   "say": "What does the word dinosaur roughly mean?"
+  }
+ ],
+ "yt": {
+  "title": "Dinosaur Quiz: Can You Get All 5? 🦕",
+  "description": "Back plates, a giant asteroid and the dinosaurs still flying around today. Five dinosaur questions, easy to expert 👇\n\n#shorts #quiz #dinosaurs #animals #trivia",
+  "tags": [
+   "dinosaur quiz",
+   "dinosaurs",
+   "animal quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "Body myths:",
+ "hook2": "true or false?",
+ "hook_emoji": "🧠",
+ "bg": [
+  "#9F1239",
+  "#FDA4AF"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 118,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🧠",
+   "text": "We only use 10%\nof our brain",
+   "say": "True or false? We only use 10% of our brain",
+   "answer": 1,
+   "fact": "Scans show activity all over the brain"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "📏",
+   "text": "You're a bit taller\nin the morning",
+   "say": "True or false? You're a bit taller in the morning",
+   "answer": 0,
+   "fact": "Spine discs squash a little during the day"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🩸",
+   "text": "Blood is blue\ninside your body",
+   "say": "True or false? Blood is blue inside your body",
+   "answer": 1,
+   "fact": "It's always red; veins just look blue"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "💅",
+   "text": "Fingernails grow faster\nthan toenails",
+   "say": "True or false? Fingernails grow faster than toenails",
+   "answer": 0,
+   "fact": "Roughly twice as fast"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "👅",
+   "text": "Each part of the tongue\ntastes one flavour",
+   "say": "True or false? Each part of the tongue tastes one flavour",
+   "answer": 1,
+   "fact": "Every area can sense all the basic tastes"
+  }
+ ],
+ "yt": {
+  "title": "True or False: Human Body Myths 🧠",
+  "description": "The 10% brain idea, blue blood and the tongue map: five things people say about the body. Which are real? 👇\n\n#shorts #quiz #humanbody #myths #trueorfalse",
+  "tags": [
+   "true or false",
+   "body myths",
+   "human body quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "Space facts:",
+ "hook2": "true or false?",
+ "hook_emoji": "🌌",
+ "bg": [
+  "#111827",
+  "#6D28D9"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "bpm": 126,
+  "root": 246.9,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🪐",
+   "text": "Saturn is less dense\nthan water",
+   "say": "True or false? Saturn is less dense than water",
+   "answer": 0,
+   "fact": "Its average density is below water's"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🌕",
+   "text": "The Moon makes\nits own light",
+   "say": "True or false? The Moon makes its own light",
+   "answer": 1,
+   "fact": "It reflects light from the Sun"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🔇",
+   "text": "Sound can't travel\nthrough space",
+   "say": "True or false? Sound can't travel through space",
+   "answer": 0,
+   "fact": "There's almost no air to carry it"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🌠",
+   "text": "Shooting stars\nare real stars",
+   "say": "True or false? Shooting stars are real stars",
+   "answer": 1,
+   "fact": "They're tiny space rocks burning up in our air"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "☀️",
+   "text": "The Sun is mostly\nhydrogen",
+   "say": "True or false? The Sun is mostly hydrogen",
+   "answer": 0,
+   "fact": "About three-quarters of its mass"
+  }
+ ],
+ "yt": {
+  "title": "True or False: Space Facts That Sound Fake 🌌",
+  "description": "Can Saturn beat water for lightness, and are shooting stars really stars? Five space claims to judge before the timer ends 👇\n\n#shorts #quiz #space #trueorfalse #astronomy",
+  "tags": [
+   "true or false",
+   "space facts",
+   "space quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

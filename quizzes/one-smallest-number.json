@@ -1,0 +1,43 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#7C2D12",
+  "#F97316"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring-left",
+  "bpm": 128,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🍕",
+   "text": "Which number\nis the smallest?",
+   "options": [
+    "1/2",
+    "1/3",
+    "1/4"
+   ],
+   "answer": 2,
+   "fact": "More slices means smaller slices",
+   "say": "Which number is the smallest: one half, one third, or one quarter?",
+   "say_answer": "One quarter!"
+  }
+ ],
+ "yt": {
+  "title": "Which Number Is the Smallest? 🍕 (3 Seconds)",
+  "description": "A half, a third or a quarter: one quick fractions question with a pizza clue. Comment your answer before the reveal 👇\n\n#shorts #quiz #maths #fractions #brainteaser",
+  "tags": [
+   "math quiz",
+   "fractions",
+   "quiz",
+   "brain teaser",
+   "shorts"
+  ]
+ }
+}

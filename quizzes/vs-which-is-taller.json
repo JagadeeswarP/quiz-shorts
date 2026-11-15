@@ -1,0 +1,103 @@
+{
+ "title": "WHICH IS TALLER?",
+ "hook1": "Which is taller?",
+ "hook2": "5 head-to-head battles",
+ "hook_emoji": "📏",
+ "bg": [
+  "#0C4A6E",
+  "#38BDF8"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 120,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "text": "Which is taller?",
+   "options": [
+    "Giraffe",
+    "Elephant"
+   ],
+   "opt_emoji": [
+    "🦒",
+    "🐘"
+   ],
+   "answer": 0,
+   "fact": "Giraffes can reach about 5.5 m"
+  },
+  {
+   "layout": "versus",
+   "text": "Which is taller?",
+   "options": [
+    "Burj Khalifa",
+    "Empire State"
+   ],
+   "opt_emoji": [
+    "🏙️",
+    "🏢"
+   ],
+   "answer": 0,
+   "fact": "828 m vs about 443 m",
+   "say": "Which is taller: the Burj Khalifa, or the Empire State Building?"
+  },
+  {
+   "layout": "versus",
+   "text": "Which waterfall is taller?",
+   "options": [
+    "Niagara Falls",
+    "Angel Falls"
+   ],
+   "opt_emoji": [
+    "🌊",
+    "🏞️"
+   ],
+   "answer": 1,
+   "fact": "Angel Falls drops about 979 m"
+  },
+  {
+   "layout": "versus",
+   "text": "Which is taller?",
+   "options": [
+    "Tallest redwood",
+    "Statue of Liberty"
+   ],
+   "opt_emoji": [
+    "🌲",
+    "🗽"
+   ],
+   "answer": 0,
+   "fact": "About 116 m vs 93 m with its base",
+   "say": "Which is taller: the tallest redwood tree, or the Statue of Liberty?"
+  },
+  {
+   "layout": "versus",
+   "text": "Which mountain is taller?",
+   "options": [
+    "Everest",
+    "Olympus Mons"
+   ],
+   "opt_emoji": [
+    "🏔️",
+    "🔴"
+   ],
+   "answer": 1,
+   "fact": "Olympus Mons on Mars is about 22 km high",
+   "say_answer": "Olympus Mons! The giant volcano on Mars."
+  }
+ ],
+ "yt": {
+  "title": "Which Is Taller? 5 Head-to-Head Battles 📏",
+  "description": "Giraffe vs elephant, a redwood vs Lady Liberty, and a mountain on Mars that dwarfs Everest. Pick the taller one each round 👇\n\n#shorts #quiz #whichistaller #facts #trivia",
+  "tags": [
+   "which is taller",
+   "this or that",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

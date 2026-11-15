@@ -1,0 +1,87 @@
+{
+ "title": "FOOTBALL RULES",
+ "hook1": "Football rules:",
+ "hook2": "can you get all 5?",
+ "hook_emoji": "⚽",
+ "bg": [
+  "#064E3B",
+  "#FACC15"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "bar",
+  "bpm": 126,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🟥",
+   "text": "A red card means…",
+   "options": [
+    "A warning",
+    "Sent off",
+    "A penalty"
+   ],
+   "answer": 1,
+   "fact": "The team plays with one fewer player",
+   "say": "What does a red card mean?"
+  },
+  {
+   "emoji": "⏱️",
+   "text": "How long is a normal\nmatch, in minutes?",
+   "options": [
+    "80",
+    "90",
+    "100"
+   ],
+   "answer": 1,
+   "fact": "Two halves of 45 minutes"
+  },
+  {
+   "emoji": "🧤",
+   "text": "Who may use their hands\nin their penalty area?",
+   "options": [
+    "Captain",
+    "Defenders",
+    "Goalkeeper"
+   ],
+   "answer": 2,
+   "fact": "Only inside their own penalty area"
+  },
+  {
+   "emoji": "🎯",
+   "text": "Penalty spot to\ngoal line?",
+   "options": [
+    "9 m",
+    "11 m",
+    "16 m"
+   ],
+   "answer": 1,
+   "fact": "That's 12 yards",
+   "say": "How far is the penalty spot from the goal line?"
+  },
+  {
+   "emoji": "🌍",
+   "text": "Which team has played at\nevery World Cup?",
+   "options": [
+    "Brazil",
+    "Germany",
+    "Italy"
+   ],
+   "answer": 0,
+   "fact": "The only team at all of them"
+  }
+ ],
+ "yt": {
+  "title": "Football Quiz: Rules & Records ⚽",
+  "description": "Red cards, penalty spots and the one nation that has never missed a World Cup. Five football questions, comment your score 👇\n\n#shorts #quiz #football #soccer #rules",
+  "tags": [
+   "football quiz",
+   "soccer rules",
+   "football rules quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}
