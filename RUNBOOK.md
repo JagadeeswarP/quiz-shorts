@@ -38,6 +38,7 @@ Repo: `JagadeeswarP/quiz-shorts` (public, used only as a temporary file host plu
 5. Commit, push and notify the user with a short summary (views, subscribers, best format, any time change, challenge link).
 
 ## Content rules (monetisation safe)
+- Never let answers follow a pattern (viewer noticed T/F/T/F/T): shuffle where the correct answer sits (A/B/C, true/false) so no position or alternation repeats more than twice in a row.
 - Original questions only; never copy other quiz channels. Rotate formats: flags, emoji (movies, food, animals, songs as titles only), science, space, human body, geography/capitals, true-or-false, odd one out, "which is bigger/older".
 - Every answer must be correct and checkable; skip disputed or fast-changing facts. One short true fact per answer.
 - No misleading claims: no "only 1% know", "99% fail", invented stats or "impossible". Honest hooks such as "Can you get all 5?".
