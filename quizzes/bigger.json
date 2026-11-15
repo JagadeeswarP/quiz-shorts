@@ -8,10 +8,10 @@
   "#0EA5E9"
  ],
  "style": {
-  "pattern": "waves",
+  "pattern": "stripes",
   "timer": "bar",
   "bpm": 124,
-  "root": 207.7,
+  "root": 233.1,
   "voice": "af_heart"
  },
  "questions": [
@@ -33,7 +33,7 @@
    "layout": "versus",
    "text": "Which is taller?",
    "options": [
-    "Eiffel Tower",
+    "Tokyo Tower",
     "Statue of Liberty"
    ],
    "opt_emoji": [
@@ -41,7 +41,7 @@
     "🗽"
    ],
    "answer": 0,
-   "fact": "About 330 m vs about 93 m"
+   "fact": "About 333 m vs about 93 m"
   },
   {
    "layout": "versus",
