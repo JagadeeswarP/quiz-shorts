@@ -15,6 +15,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS, SR = 1080, 1920, 30, 44100
+LW, LH = 1920, 1080  # landscape (long-video) canvas
 FB = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'
 FE = '/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf'
 EMO = ImageFont.truetype(FE, 109, layout_engine=ImageFont.Layout.RAQM)
@@ -24,6 +25,7 @@ def F(s):
     if s not in _FC: _FC[s] = ImageFont.truetype(FB, s)
     return _FC[s]
 POP, THINK = 0.35, 3.0
+LAND = False  # set by main() for landscape long videos
 INK = (20, 16, 40)
 
 def ease(u): u = max(0, min(1, u)); return 1 - (1 - u) ** 3
@@ -144,16 +146,17 @@ def plan(q, voice_on=True):
         think0 = max(POP, 0.15 + d)
         ans = x['options'][x['answer']]
         sa = x.get('say_answer') or f"{ans}!"
+        if q.get('speak_fact') and x.get('fact'): sa = f"{sa} {clean(x['fact'])}"
         a2, d2 = tl(sa)
         rev = max(1.4, d2 + 0.25)
         audio.append((t + think0 + THINK + 0.08, a2))
         segs.append(('q', k, t, think0 + THINK + rev, think0)); t += think0 + THINK + rev
-    a, d = tl('How many did you get? Comment your score, and follow for a new quiz every day!')
+    a, d = tl(q.get('outro_say', 'How many did you get? Comment your score, and follow for a new quiz every day!'))
     audio.append((t + 0.15, a)); END = max(2.0, d + 0.6)
     segs.append(('end', -1, t, END)); t += END
     return segs, audio, t
 
-def build_bg(q):
+def build_bg(q, W=W, H=H):
     c1, c2 = [tuple(int(c[i:i + 2], 16) for i in (1, 3, 5)) for c in q['bg']]
     yy = np.linspace(0, 1, H)[:, None, None]
     grad = (np.array(c1)[None, None, :] * (1 - yy) + np.array(c2)[None, None, :] * yy).repeat(W, 1).astype(np.uint8)
@@ -202,7 +205,7 @@ def frame(q, BG, segs, t):
         fa = ease((lt - 0.6) / 0.3)
         if fa > 0:
             rr(d, (540 - 330 * fa, 1330, 540 + 330 * fa, 1430), 50, (255, 60, 70))
-            if fa > 0.9: d.text((540, 1380), 'Follow for a daily quiz!', font=F(48), fill=(255, 255, 255), anchor='mm')
+            if fa > 0.9: d.text((540, 1380), q.get('outro_text', 'Follow for a daily quiz!'), font=F(48 if len(q.get('outro_text', '')) < 26 else 40), fill=(255, 255, 255), anchor='mm')
             stick(d, 200, 1720, 300, 'point', t)
         chips = min(n, 10)
         for i in range(chips):
@@ -320,13 +323,15 @@ def frame(q, BG, segs, t):
     if mood == 'happy' and lt - think0 - THINK < 1.2: bubble(d, hx + (95 if sx < 540 else -95), hy - hr - 40, 'YES!', 32)
     # timer
     if think0 <= lt < think0 + THINK:
-        u = (lt - think0) / THINK; rem = 3 - int(lt - think0)
+        u = (lt - think0) / THINK; rem = math.ceil(THINK - (lt - think0) - 1e-6)
         pul = 1 + 0.25 * max(0, 1 - ((lt - think0) % 1) / 0.25)
         tm = q.get('style', {}).get('timer', 'ring')
+        by = 1850 if LAND else 456  # landscape: timer drawn in a spare strip, moved by frame_land()
+        if LAND and tm != 'bar': tm = 'bar'
         if tm == 'bar':
-            rr(d, (140, 446, 940, 466), 10, (20, 16, 40, 160))
-            rr(d, (140, 446, 140 + max(20, int(800 * (1 - u))), 466), 10, (255, 222, 74))
-            d.text((985, 456), str(rem), font=F(54 * pul), fill=(255, 255, 255), anchor='mm', stroke_width=5, stroke_fill=INK)
+            rr(d, (140, by - 10, 940, by + 10), 10, (20, 16, 40, 160))
+            rr(d, (140, by - 10, 140 + max(20, int(800 * (1 - u))), by + 10), 10, (255, 222, 74))
+            d.text((985, by), str(rem), font=F(54 * pul), fill=(255, 255, 255), anchor='mm', stroke_width=5, stroke_fill=INK)
         else:
             cx, cy3 = (180, 470) if tm == 'ring-left' else (900, 470)
             d.ellipse((cx - 70, cy3 - 70, cx + 70, cy3 + 70), fill=(20, 16, 40, 200))
@@ -366,7 +371,7 @@ def audio(q, segs, speech, total, path):
         if s[0] != 'q': continue
         t0, think0 = s[2], s[4]
         add(sfx, np.random.randn(int(SR * 0.25)) * np.linspace(0, 0.15, int(SR * 0.25)), t0)
-        for k in range(3): add(sfx, tone(1500, 0.06, 0.3, 60), t0 + think0 + k)
+        for k in range(int(THINK)): add(sfx, tone(1500, 0.06, 0.3, 60) * (1 if k >= THINK - 3 else 0.5), t0 + think0 + k)
         add(sfx, tone(1046.5, 0.8, 0.25, 4) + tone(1568, 0.8, 0.16, 4) + tone(2093, 0.8, 0.08, 5), t0 + think0 + THINK)
     for at, a in speech: add(voice, a, at)
     env = np.convolve((np.abs(voice) > 0.02).astype(float), np.ones(int(SR * 0.25)) / int(SR * 0.25), 'same')
@@ -377,19 +382,52 @@ def audio(q, segs, speech, total, path):
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
         w.writeframes((mix * 32767).astype(np.int16).tobytes())
 
+_CLEAR = None
+def frame_land(q, BGL, segs, t):
+    """Landscape 1920x1080: draw the portrait layout on a clear canvas, then rearrange its parts."""
+    global _CLEAR
+    if _CLEAR is None: _CLEAR = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    src = frame(q, _CLEAR, segs, t); out = BGL.copy()
+    def put(box, sc, xy):
+        part = src.crop(box)
+        if sc != 1: part = part.resize((int(part.width * sc), int(part.height * sc)), Image.LANCZOS)
+        out.alpha_composite(part, (int(xy[0]), int(xy[1])))
+    seg = next((s for s in segs if s[2] <= t < s[2] + s[3]), segs[-1])
+    if seg[0] == 'hook': put((0, 430, W, 1580), 0.88, ((LW - W * 0.88) / 2, 40)); return out
+    if seg[0] == 'end': put((0, 500, W, 1760), 0.82, ((LW - W * 0.82) / 2, 30)); return out
+    lay = q['questions'][seg[1]].get('layout', 'mcq')
+    put((0, 170, W, 470), 0.78, ((LW - W * 0.78) / 2, 0))                     # title, progress, level, stick man
+    put((0, 1800, W, 1900), 1.0, ((LW - W) / 2, 225))                        # timer bar
+    card = (85, 475, 995, 1050) if lay != 'tiles' else (85, 470, 995, 815)
+    opts = {'mcq': (0, 1075, W, 1530), 'versus': (30, 1055, 1050, 1485), 'tiles': (60, 855, 1020, 1565)}[lay]
+    cs = 0.82 if lay != 'tiles' else 0.9
+    ch = (card[3] - card[1]) * cs
+    put(card, cs, (80, 335 + (520 - ch) / 2))
+    osc = 0.9 if lay != 'tiles' else 0.78
+    oh = (opts[3] - opts[1]) * osc
+    put(opts, osc, (1000 + (880 - (opts[2] - opts[0]) * osc) / 2, 335 + (520 - oh) / 2))
+    fy = 1690 if lay == 'tiles' else 1625
+    put((0, fy - 70, W, fy + 70), 1.0, ((LW - W) / 2, 900))                  # fact pill
+    return out
+
 def main(spec, out, still=None):
-    q = json.load(open(spec)); BG = build_bg(q)
+    global THINK, LAND
+    q = json.load(open(spec)); THINK = float(q.get('think', 3.0))
+    land = LAND = q.get('format') == 'landscape'
+    BG = build_bg(q, LW, LH) if land else build_bg(q)
+    render = (lambda segs, t: frame_land(q, BG, segs, t)) if land else (lambda segs, t: frame(q, BG, segs, t))
+    VW, VH = (LW, LH) if land else (W, H)
     if still:
         segs, _, total = plan(q, voice_on=False)
-        for tt in still: frame(q, BG, segs, min(tt, total - 0.01)).convert('RGB').save(f'{out}_{tt}.jpg', quality=80)
+        for tt in still: render(segs, min(tt, total - 0.01)).convert('RGB').save(f'{out}_{tt}.jpg', quality=80)
         return
     segs, speech, total = plan(q)
     wav = out + '.wav'; audio(q, segs, speech, total, wav)
-    p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
+    p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{VW}x{VH}', '-r', str(FPS), '-i', '-',
                           '-i', wav, '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
                           '-shortest', '-movflags', '+faststart', out], stdin=subprocess.PIPE)
     for i in range(int(total * FPS)):
-        p.stdin.write(frame(q, BG, segs, i / FPS).convert('RGB').tobytes())
+        p.stdin.write(render(segs, i / FPS).convert('RGB').tobytes())
     p.stdin.close(); p.wait(); print(out, round(total, 1), 's')
 
 if __name__ == '__main__':
