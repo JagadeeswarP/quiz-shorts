@@ -20,11 +20,11 @@
    "text": "GEOGRAPHY\nWhich is the largest continent?",
    "say": "Geography. Which is the largest continent?",
    "options": [
-    "Africa",
     "Asia",
+    "Africa",
     "Europe"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Asia covers about 30% of Earth's land"
   },
   {
@@ -33,10 +33,10 @@
    "say": "Sports. How many players does a football team have on the pitch?",
    "options": [
     "9",
-    "11",
-    "12"
+    "12",
+    "11"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "10 outfield players + 1 goalkeeper"
   },
   {
@@ -44,11 +44,11 @@
    "text": "GEOGRAPHY\nThe Sahara Desert is in…",
    "say": "Geography. The Sahara Desert is in which continent?",
    "options": [
+    "Australia",
     "Asia",
-    "Africa",
-    "Australia"
+    "Africa"
    ],
-   "answer": 1,
+   "answer": 2,
    "fact": "It's about the size of the USA"
   },
   {
@@ -56,11 +56,11 @@
    "text": "SPORTS\nA basket from behind the arc is worth…",
    "say": "Sports. A basket from behind the arc is worth how many points?",
    "options": [
-    "2",
     "3",
-    "4"
+    "4",
+    "2"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "That's the three-point line"
   },
   {
@@ -80,9 +80,9 @@
    "text": "SPORTS\nWimbledon is played on…",
    "say": "Sports. What surface is Wimbledon played on?",
    "options": [
-    "Clay",
+    "Hard court",
     "Grass",
-    "Hard court"
+    "Clay"
    ],
    "answer": 1,
    "fact": "The oldest tennis tournament in the world"
