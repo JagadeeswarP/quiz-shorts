@@ -41,11 +41,11 @@
     "✅",
     "❌"
    ],
-   "emoji": "🌕",
-   "text": "The Moon makes\nits own light",
-   "say": "True or false? The Moon makes its own light",
-   "answer": 1,
-   "fact": "It reflects light from the Sun"
+   "emoji": "☀️",
+   "text": "The Sun is mostly\nhydrogen",
+   "say": "True or false? The Sun is mostly hydrogen",
+   "answer": 0,
+   "fact": "About three-quarters of its mass"
   },
   {
    "layout": "versus",
@@ -57,11 +57,11 @@
     "✅",
     "❌"
    ],
-   "emoji": "🔇",
-   "text": "Sound can't travel\nthrough space",
-   "say": "True or false? Sound can't travel through space",
-   "answer": 0,
-   "fact": "There's almost no air to carry it"
+   "emoji": "🌕",
+   "text": "The Moon makes\nits own light",
+   "say": "True or false? The Moon makes its own light",
+   "answer": 1,
+   "fact": "It reflects light from the Sun"
   },
   {
    "layout": "versus",
@@ -89,11 +89,11 @@
     "✅",
     "❌"
    ],
-   "emoji": "☀️",
-   "text": "The Sun is mostly\nhydrogen",
-   "say": "True or false? The Sun is mostly hydrogen",
+   "emoji": "🔇",
+   "text": "Sound can't travel\nthrough space",
+   "say": "True or false? Sound can't travel through space",
    "answer": 0,
-   "fact": "About three-quarters of its mass"
+   "fact": "There's almost no air to carry it"
   }
  ],
  "yt": {
