@@ -1,0 +1,82 @@
+{
+ "title": "GUESS THE FLAG",
+ "hook1": "Asia edition:",
+ "hook2": "name all 5 flags?",
+ "hook_emoji": "🌏",
+ "bg": [
+  "#064E3B",
+  "#0EA5E9"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 122,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇮🇳",
+   "options": [
+    "Pakistan",
+    "India",
+    "Bangladesh"
+   ],
+   "answer": 1,
+   "fact": "The blue wheel has 24 spokes|☸️"
+  },
+  {
+   "emoji": "🇹🇭",
+   "options": [
+    "Thailand",
+    "Cambodia",
+    "Laos"
+   ],
+   "answer": 0,
+   "fact": "Red, white and blue stripes since 1917|🇹🇭"
+  },
+  {
+   "emoji": "🇻🇳",
+   "options": [
+    "China",
+    "Myanmar",
+    "Vietnam"
+   ],
+   "answer": 2,
+   "fact": "One gold star on a red field|⭐"
+  },
+  {
+   "emoji": "🇱🇰",
+   "options": [
+    "Maldives",
+    "Nepal",
+    "Sri Lanka"
+   ],
+   "answer": 2,
+   "fact": "A golden lion holds a sword|🦁"
+  },
+  {
+   "emoji": "🇧🇹",
+   "options": [
+    "Bhutan",
+    "Mongolia",
+    "Brunei"
+   ],
+   "answer": 0,
+   "fact": "The white dragon is the Thunder Dragon|🐉"
+  }
+ ],
+ "yt": {
+  "title": "Guess These 5 Asian Flags 🌏 (Easy → Expert)",
+  "description": "From India's spoked wheel to the dragon on Bhutan's flag, five Asian flags that get harder as you go. How many did you name? 👇\n\n#shorts #quiz #flags #asia #geography",
+  "tags": [
+   "flag quiz",
+   "asian flags",
+   "guess the flag",
+   "geography quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

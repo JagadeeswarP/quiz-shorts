@@ -35,3 +35,7 @@ Total views on the 7 quiz Shorts: **6,448**. Only flags and movies are ≥48 h o
 - Subs gained: flags 4, animals 3, challenge 3, others 0–2.
 - Rows 6 (grade-maths, 25 views) and 7 (tf-animal-myths, 17 views) stalled: public, processed, not made for kids, no restrictions; the feed never tested them. Re-check by the weekend; don't repost the same files.
 - Decision (user approved): more flags and emoji. Row 33 Europe flags (already posted as row 65) → Americas flags; row 39 ODD → EMOJI movies part 2; row 45 capitals hard → flag lookalikes (GEO); row 61 ODD → EMOJI countries; rows 55/64 retitled (64 now Africa only). Flags now at 33, 45, 55, 64; emoji at 30, 39, 48, 61.
+- Update (user request, same day): from Nov 19 the 18:00 slot is a flag quiz every day (rows 17, 20, 23, 26, 30, 33, 36, 39, 42, 45, 48, 52, 55, 58, 61, 64). The other two slots keep their formats.
+- Uploads had drifted one slot behind plan.csv, so row 14 (food) was moved to row 34 (replacing GRADE geography) and row 14 marked skipped; posts now line up with their planned slot again. Emoji topics moved into GRADE rows 43, 56, 62.
+- Displaced written quizzes (body, capitals, science, dinosaurs) stay in quizzes/ for later use.
+- Row 17 flags-asia.json written and stills checked (India, Thailand, Vietnam, Sri Lanka, Bhutan).
