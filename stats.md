@@ -28,3 +28,10 @@ Total views on the 7 quiz Shorts: **6,448**. Only flags and movies are ≥48 h o
 - Format swaps: **none** — no format has 3+ mature posts yet.
 - Plan: pre-wrote rows 8–26 (Nov 16–22) and marked them `written`; 14 new quizzes, 5 existing ones checked. Row 27 (next Sunday's challenge) is left for next week's run. Plan runs to Dec 4, so no rows appended.
 - Note: rows 3–4 were skipped earlier (missed slots); row 2 and the extra Europe flags quiz were posted at ~19:55 instead of their planned slots, so their early numbers aren't slot-comparable.
+
+## 2026-11-18 mid-week check (YouTube Studio data via the API, Nov 7–15)
+- Traffic: Shorts feed 94% of views (11,444), search 4% (473), channel page 1%.
+- Average % watched: flags 86%, emoji movies 77%, VS 71%, animals 65%, Europe flags 61%, TF 60%, DUEL 62%; 2:23 challenge 40%.
+- Subs gained: flags 4, animals 3, challenge 3, others 0–2.
+- Rows 6 (grade-maths, 25 views) and 7 (tf-animal-myths, 17 views) stalled: public, processed, not made for kids, no restrictions; the feed never tested them. Re-check by the weekend; don't repost the same files.
+- Decision (user approved): more flags and emoji. Row 33 Europe flags (already posted as row 65) → Americas flags; row 39 ODD → EMOJI movies part 2; row 45 capitals hard → flag lookalikes (GEO); row 61 ODD → EMOJI countries; rows 55/64 retitled (64 now Africa only). Flags now at 33, 45, 55, 64; emoji at 30, 39, 48, 61.
