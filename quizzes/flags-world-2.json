@@ -1,0 +1,82 @@
+{
+ "title": "GUESS THE FLAG",
+ "hook1": "Can you name",
+ "hook2": "all 5 flags?",
+ "hook_emoji": "🌍",
+ "bg": [
+  "#312E81",
+  "#DB2777"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 120,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇨🇳",
+   "options": [
+    "Vietnam",
+    "China",
+    "North Korea"
+   ],
+   "answer": 1,
+   "fact": "Five gold stars on a red field|⭐"
+  },
+  {
+   "emoji": "🇬🇷",
+   "options": [
+    "Finland",
+    "Uruguay",
+    "Greece"
+   ],
+   "answer": 2,
+   "fact": "9 blue and white stripes|🌊"
+  },
+  {
+   "emoji": "🇵🇭",
+   "options": [
+    "Philippines",
+    "Czechia",
+    "Cuba"
+   ],
+   "answer": 0,
+   "fact": "Red goes on top only in wartime|🔄"
+  },
+  {
+   "emoji": "🇰🇭",
+   "options": [
+    "Thailand",
+    "Laos",
+    "Cambodia"
+   ],
+   "answer": 2,
+   "fact": "Angkor Wat temple is on the flag|🛕"
+  },
+  {
+   "emoji": "🇲🇳",
+   "options": [
+    "Mongolia",
+    "Kazakhstan",
+    "Kyrgyzstan"
+   ],
+   "answer": 0,
+   "fact": "The gold symbol is the Soyombo|✨"
+  }
+ ],
+ "yt": {
+  "title": "Can You Name All 5 Flags? Part 2 🌍 (Easy → Expert)",
+  "description": "Round two: a temple, a flag that flips in wartime and a symbol called the Soyombo. Five world flags, easy to expert. What's your score? 👇\n\n#shorts #quiz #flags #geography #trivia",
+  "tags": [
+   "flag quiz",
+   "guess the flag",
+   "world flags",
+   "geography quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

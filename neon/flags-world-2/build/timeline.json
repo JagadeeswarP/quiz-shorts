@@ -1,0 +1,103 @@
+{
+ "end": 46.541,
+ "sent": [
+  {
+   "kind": "intro",
+   "cap": "Can you name all 5 flags?",
+   "start": 0.7,
+   "end": 2.282,
+   "q": -1
+  },
+  {
+   "kind": "intro2",
+   "cap": "Easy \u2192 expert. Let's go!",
+   "start": 2.432,
+   "end": 4.029,
+   "q": -1
+  },
+  {
+   "kind": "q",
+   "cap": "Flag one. Easy.",
+   "start": 4.479,
+   "end": 5.703,
+   "q": 0
+  },
+  {
+   "kind": "a",
+   "cap": "China! Five gold stars on a red field.",
+   "start": 8.953,
+   "end": 11.306,
+   "q": 0
+  },
+  {
+   "kind": "q",
+   "cap": "Flag two.",
+   "start": 11.856,
+   "end": 12.53,
+   "q": 1
+  },
+  {
+   "kind": "a",
+   "cap": "Greece! Nine blue and white stripes.",
+   "start": 15.78,
+   "end": 17.67,
+   "q": 1
+  },
+  {
+   "kind": "q",
+   "cap": "Flag three. Getting harder.",
+   "start": 18.22,
+   "end": 19.63,
+   "q": 2
+  },
+  {
+   "kind": "a",
+   "cap": "The Philippines! In wartime, the red goes on top.",
+   "start": 22.88,
+   "end": 25.725,
+   "q": 2
+  },
+  {
+   "kind": "q",
+   "cap": "Flag four.",
+   "start": 26.275,
+   "end": 26.945,
+   "q": 3
+  },
+  {
+   "kind": "a",
+   "cap": "Cambodia! That's the Angkor Wat temple on the flag.",
+   "start": 30.195,
+   "end": 32.891,
+   "q": 3
+  },
+  {
+   "kind": "q",
+   "cap": "Last one. Expert level.",
+   "start": 33.441,
+   "end": 34.921,
+   "q": 4
+  },
+  {
+   "kind": "a",
+   "cap": "Mongolia! The gold symbol is called the Soyombo.",
+   "start": 38.171,
+   "end": 40.726,
+   "q": 4
+  },
+  {
+   "kind": "outro",
+   "cap": "How many did you get?",
+   "start": 41.276,
+   "end": 43.218,
+   "q": -1
+  },
+  {
+   "kind": "outro2",
+   "cap": "Follow for a daily quiz!",
+   "start": 43.368,
+   "end": 44.741,
+   "q": -1
+  }
+ ]
+}
