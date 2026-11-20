@@ -44,11 +44,11 @@
    "text": "HISTORY\nThe Great Wall is in…",
    "say": "History. The Great Wall is in which country?",
    "options": [
-    "Japan",
     "China",
-    "India"
+    "India",
+    "Japan"
    ],
-   "answer": 1,
+   "answer": 0,
    "fact": "Built and rebuilt over many centuries"
   },
   {
