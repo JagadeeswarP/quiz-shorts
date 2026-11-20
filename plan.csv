@@ -19,7 +19,7 @@ id,date,slot_ist,format,layout,topic,title,hook,questions,file,status,video_id,v
 17,2026-11-19,18,GEO,mcq,Guess the flag: Asia,Guess These 5 Asian Flags 🌏 (Easy → Expert),Asia edition: can you name all 5?,5,flags-asia,posted,RkMkDz8Ds6g,
 18,2026-11-20,6,DUEL,mcq,History vs Science,Do You Know More About History or Science?,Score a point for each side: which do you know better?,6,duel-history-science,posted,Cxy2BQ9uMDo,
 19,2026-11-20,13,TF,versus,Human body myths,True or False: Human body myths,True or false? Decide before the timer ends.,5,tf-body-myths,posted,WpwCRA9ER1Y,
-20,2026-11-20,18,GEO,mcq,Guess the flag: North & Central America,Guess These 5 Flags From North & Central America,Americas edition: can you name all 5?,5,,planned,,
+20,2026-11-20,18,GEO,mcq,Guess the flag: North & Central America,Guess These 5 Flags From North & Central America,Americas edition: can you name all 5?,5,flags-americas,written,,
 21,2026-11-21,6,FOOT,mcq,Football rules & records,Football Quiz: Rules & Records ⚽,Real fans get all 5. Can you?,5,foot-rules-records,written,,
 22,2026-11-21,13,ONE,mcq/versus,Which animal is the fastest?,Which animal is the fastest?,"One question, 3 seconds. Comment your answer!",1,one-fastest-animal,written,,
 23,2026-11-21,18,GEO,mcq,Guess the flag: Africa,Guess These 5 African Flags (Easy → Expert),Africa edition: can you name all 5?,5,,planned,,

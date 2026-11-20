@@ -1,0 +1,21 @@
+{
+ "title": "GUESS THE FLAG",
+ "hook1": "Americas edition:",
+ "hook2": "name all 5 flags?",
+ "hook_emoji": "🌎",
+ "bg": ["#7C2D12", "#F59E0B"],
+ "style": {"pattern": "stripes", "timer": "bar", "bpm": 126, "root": 196.0, "voice": "af_heart"},
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {"emoji": "🇨🇦", "options": ["Peru", "Mexico", "Canada"], "answer": 2, "fact": "The maple leaf has 11 points|🍁"},
+  {"emoji": "🇲🇽", "options": ["Mexico", "Italy", "Guatemala"], "answer": 0, "fact": "An eagle eats a snake on a cactus|🦅"},
+  {"emoji": "🇨🇺", "options": ["Panama", "Cuba", "Honduras"], "answer": 1, "fact": "Five stripes and one white star|⭐"},
+  {"emoji": "🇧🇿", "options": ["Guatemala", "Belize", "Costa Rica"], "answer": 1, "fact": "Woodcutters stand by a mahogany tree|🌳"},
+  {"emoji": "🇳🇮", "options": ["Honduras", "El Salvador", "Nicaragua"], "answer": 2, "fact": "A rainbow shines over five volcanoes|🌈"}
+ ],
+ "yt": {
+  "title": "Guess These 5 Flags From North & Central America",
+  "description": "Canada's maple leaf is the warm-up; Belize's woodcutters and Nicaragua's five volcanoes are where it gets tricky. How many of these North and Central American flags did you get? 👇\n\n#shorts #quiz #flags #northamerica #geography",
+  "tags": ["flag quiz", "north america flags", "central america flags", "guess the flag", "geography quiz", "quiz", "shorts"]
+ }
+}
