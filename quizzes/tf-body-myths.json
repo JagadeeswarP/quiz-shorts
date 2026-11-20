@@ -41,11 +41,11 @@
     "✅",
     "❌"
    ],
-   "emoji": "📏",
-   "text": "You're a bit taller\nin the morning",
-   "say": "True or false? You're a bit taller in the morning",
-   "answer": 0,
-   "fact": "Spine discs squash a little during the day"
+   "emoji": "🩸",
+   "text": "Blood is blue\ninside your body",
+   "say": "True or false? Blood is blue inside your body",
+   "answer": 1,
+   "fact": "It's always red; veins just look blue"
   },
   {
    "layout": "versus",
@@ -57,11 +57,11 @@
     "✅",
     "❌"
    ],
-   "emoji": "🩸",
-   "text": "Blood is blue\ninside your body",
-   "say": "True or false? Blood is blue inside your body",
-   "answer": 1,
-   "fact": "It's always red; veins just look blue"
+   "emoji": "📏",
+   "text": "You're a bit taller\nin the morning",
+   "say": "True or false? You're a bit taller in the morning",
+   "answer": 0,
+   "fact": "Spine discs squash a little during the day"
   },
   {
    "layout": "versus",
