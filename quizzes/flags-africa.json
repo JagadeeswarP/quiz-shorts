@@ -1,0 +1,21 @@
+{
+ "title": "GUESS THE FLAG",
+ "hook1": "Africa edition:",
+ "hook2": "name all 5 flags?",
+ "hook_emoji": "🌍",
+ "bg": ["#14532D", "#B91C1C"],
+ "style": {"pattern": "dots", "timer": "ring-left", "bpm": 120, "root": 220.0, "voice": "af_heart"},
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {"emoji": "🇿🇦", "options": ["South Africa", "Namibia", "Botswana"], "answer": 0, "fact": "Adopted in 1994, the year of its first all-race election|🗳️"},
+  {"emoji": "🇳🇬", "options": ["Niger", "Chad", "Nigeria"], "answer": 2, "fact": "Green is for its farmland, white is for peace|🌿"},
+  {"emoji": "🇰🇪", "options": ["Uganda", "Kenya", "Malawi"], "answer": 1, "fact": "A Maasai shield and two spears sit in the middle|🛡️"},
+  {"emoji": "🇬🇭", "options": ["Ghana", "Senegal", "Cameroon"], "answer": 0, "fact": "The black star stands for African freedom|⭐"},
+  {"emoji": "🇱🇸", "options": ["Eswatini", "Lesotho", "Botswana"], "answer": 1, "fact": "A traditional Basotho straw hat sits in the middle|👒"}
+ ],
+ "yt": {
+  "title": "Guess These 5 African Flags (Easy → Expert)",
+  "description": "From South Africa's rainbow Y to the straw hat on Lesotho's flag, these five African flags get harder as you go. Which one stumped you? 👇\n\n#shorts #quiz #flags #africa #geography",
+  "tags": ["flag quiz", "african flags", "africa flags quiz", "guess the flag", "geography quiz", "quiz", "shorts"]
+ }
+}
