@@ -1,0 +1,21 @@
+{
+ "title": "LOOKALIKE FLAGS",
+ "hook1": "These flags look alike.",
+ "hook2": "Can you tell them apart?",
+ "hook_emoji": "🔍",
+ "bg": ["#1E3A8A", "#0D9488"],
+ "style": {"pattern": "waves", "timer": "ring-left", "bpm": 118, "root": 196.0, "voice": "af_heart"},
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {"emoji": "🇮🇪", "options": ["Ivory Coast", "Ireland", "Italy"], "answer": 1, "fact": "Ivory Coast flips it: orange sits next to the pole|🔁"},
+  {"emoji": "🇮🇩", "options": ["Poland", "Monaco", "Indonesia"], "answer": 2, "fact": "Monaco's flag matches, just in a different shape|📐"},
+  {"emoji": "🇦🇺", "options": ["Australia", "New Zealand", "Fiji"], "answer": 0, "fact": "Australia's stars are white; New Zealand's are red|⭐"},
+  {"emoji": "🇳🇱", "options": ["Netherlands", "Luxembourg", "Russia"], "answer": 0, "fact": "Luxembourg's version uses a lighter sky blue|🩵"},
+  {"emoji": "🇷🇴", "options": ["Chad", "Andorra", "Romania"], "answer": 2, "fact": "Chad's flag is almost identical, with a darker blue|🔵"}
+ ],
+ "yt": {
+  "title": "Flag Quiz Hard Mode: Spot the Lookalikes",
+  "description": "Ireland or Ivory Coast? Indonesia or Monaco? Romania or Chad? Five flags with near-twins, from easy to expert. How many did you tell apart? 👇\n\n#shorts #quiz #flags #flagquiz #geography",
+  "tags": ["flag quiz", "lookalike flags", "similar flags", "guess the flag", "geography quiz", "hard flag quiz", "quiz", "shorts"]
+ }
+}
