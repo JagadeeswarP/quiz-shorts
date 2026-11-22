@@ -41,11 +41,11 @@
     "✅",
     "❌"
    ],
-   "emoji": "⚔️",
-   "text": "Vikings wore horned\nhelmets in battle",
-   "say": "True or false? Vikings wore horned helmets in battle",
-   "answer": 1,
-   "fact": "That look came from 1800s costumes"
+   "emoji": "✈️",
+   "text": "The first plane flight was\nshorter than a jumbo jet's wings",
+   "say": "True or false? The Wright brothers' first flight was shorter than a jumbo jet's wingspan.",
+   "answer": 0,
+   "fact": "About 37 metres, in 12 seconds"
   },
   {
    "layout": "versus",
@@ -57,11 +57,11 @@
     "✅",
     "❌"
    ],
-   "emoji": "✈️",
-   "text": "The first plane flight was\nshorter than a jumbo jet",
-   "say": "True or false? The Wright brothers' first flight was shorter than a jumbo jet's wingspan.",
-   "answer": 0,
-   "fact": "About 37 metres, in 12 seconds"
+   "emoji": "⚔️",
+   "text": "Vikings wore horned\nhelmets in battle",
+   "say": "True or false? Vikings wore horned helmets in battle",
+   "answer": 1,
+   "fact": "That look came from 1800s costumes"
   },
   {
    "layout": "versus",
