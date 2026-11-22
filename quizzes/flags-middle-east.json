@@ -1,0 +1,82 @@
+{
+ "title": "MIDDLE EAST FLAGS",
+ "hook1": "Middle East edition:",
+ "hook2": "can you name all 5?",
+ "hook_emoji": "🕌",
+ "bg": [
+  "#065F46",
+  "#B91C1C"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring",
+  "bpm": 118,
+  "root": 185,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇹🇷",
+   "options": [
+    "Tunisia",
+    "Turkey",
+    "Azerbaijan"
+   ],
+   "answer": 1,
+   "fact": "A white crescent and star on red|🌙"
+  },
+  {
+   "emoji": "🇸🇦",
+   "options": [
+    "Saudi Arabia",
+    "Pakistan",
+    "Algeria"
+   ],
+   "answer": 0,
+   "fact": "It is never flown at half-mast|🟩"
+  },
+  {
+   "emoji": "🇱🇧",
+   "options": [
+    "Cyprus",
+    "Canada",
+    "Lebanon"
+   ],
+   "answer": 2,
+   "fact": "A green cedar tree stands in the middle|🌲"
+  },
+  {
+   "emoji": "🇶🇦",
+   "options": [
+    "Qatar",
+    "Bahrain",
+    "Oman"
+   ],
+   "answer": 0,
+   "fact": "Maroon with nine white points|🔺"
+  },
+  {
+   "emoji": "🇴🇲",
+   "options": [
+    "Kuwait",
+    "Oman",
+    "UAE"
+   ],
+   "answer": 1,
+   "fact": "Red, white and green, with an emblem in the corner|📍"
+  }
+ ],
+ "yt": {
+  "title": "Guess These 5 Middle East Flags 🕌",
+  "description": "A crescent, a cedar tree, nine white points and two flags with Arabic script or an emblem. How many of these five can you name? 👇\n\n#shorts #quiz #flags #flagquiz #middleeast",
+  "tags": [
+   "middle east flags",
+   "flag quiz",
+   "guess the flag",
+   "geography quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

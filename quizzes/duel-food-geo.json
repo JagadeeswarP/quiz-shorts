@@ -1,0 +1,103 @@
+{
+ "title": "FOOD vs GEOGRAPHY",
+ "hook1": "Food or geography:",
+ "hook2": "which do you know better?",
+ "hook_emoji": "🍜",
+ "bg": [
+  "#9A3412",
+  "#065F46"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 120,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🧀",
+   "text": "FOOD\nFeta cheese comes from…",
+   "say": "Food. Which country gave us feta cheese?",
+   "options": [
+    "France",
+    "Greece",
+    "Spain"
+   ],
+   "answer": 1,
+   "fact": "It's traditionally made with sheep's milk"
+  },
+  {
+   "emoji": "🏝️",
+   "text": "GEOGRAPHY\nThe world's largest island?",
+   "say": "Geography. What's the largest island in the world?",
+   "options": [
+    "Madagascar",
+    "Borneo",
+    "Greenland"
+   ],
+   "answer": 2,
+   "fact": "Australia counts as a continent, not an island"
+  },
+  {
+   "emoji": "🍣",
+   "text": "FOOD\nSushi is made with…",
+   "say": "Food. Sushi is made with which grain?",
+   "options": [
+    "Rice",
+    "Wheat",
+    "Oats"
+   ],
+   "answer": 0,
+   "fact": "The rice is seasoned with vinegar"
+  },
+  {
+   "emoji": "🌊",
+   "text": "GEOGRAPHY\nWhich sea has no coastline?",
+   "say": "Geography. Which sea has no coastline at all?",
+   "options": [
+    "Red Sea",
+    "Black Sea",
+    "Sargasso Sea"
+   ],
+   "answer": 2,
+   "fact": "Ocean currents form its edges, in the Atlantic"
+  },
+  {
+   "emoji": "🌶️",
+   "text": "FOOD\nWhat makes chillies hot?",
+   "say": "Food. What makes chilli peppers taste hot?",
+   "options": [
+    "Caffeine",
+    "Capsaicin",
+    "Citric acid"
+   ],
+   "answer": 1,
+   "fact": "Birds can't feel its burn"
+  },
+  {
+   "emoji": "🏔️",
+   "text": "GEOGRAPHY\nThe Andes are in…",
+   "say": "Geography. The Andes mountains are on which continent?",
+   "options": [
+    "South America",
+    "Asia",
+    "Africa"
+   ],
+   "answer": 0,
+   "fact": "The longest mountain range on land"
+  }
+ ],
+ "yt": {
+  "title": "Do You Know More About Food or Geography? 🍜🌍",
+  "description": "Feta, sushi and chilli heat face off against Greenland, the Andes and a sea with no shore. Keep score for each side and tell us who won 👇\n\n#shorts #quiz #food #geography #trivia",
+  "tags": [
+   "food or geography",
+   "food quiz",
+   "geography quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

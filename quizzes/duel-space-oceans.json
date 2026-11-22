@@ -1,0 +1,103 @@
+{
+ "title": "SPACE vs OCEANS",
+ "hook1": "Space or oceans:",
+ "hook2": "which do you know better?",
+ "hook_emoji": "🚀",
+ "bg": [
+  "#0F172A",
+  "#0E7490"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "bpm": 114,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🌙",
+   "text": "SPACE\nThe Moon orbits Earth in about…",
+   "say": "Space. How long does the Moon take to go around Earth?",
+   "options": [
+    "1 week",
+    "1 month",
+    "1 year"
+   ],
+   "answer": 1,
+   "fact": "About 27 days per orbit"
+  },
+  {
+   "emoji": "🌊",
+   "text": "OCEANS\nHow much of Earth is ocean?",
+   "say": "Oceans. About how much of Earth's surface is ocean?",
+   "options": [
+    "About 70%",
+    "About half",
+    "About 90%"
+   ],
+   "answer": 0,
+   "fact": "About 71% of the surface"
+  },
+  {
+   "emoji": "🔴",
+   "text": "SPACE\nWhich planet has the Great Red Spot?",
+   "say": "Space. Which planet has the Great Red Spot?",
+   "options": [
+    "Mars",
+    "Saturn",
+    "Jupiter"
+   ],
+   "answer": 2,
+   "fact": "It's a storm bigger than Earth"
+  },
+  {
+   "emoji": "🕳️",
+   "text": "OCEANS\nThe deepest ocean trench?",
+   "say": "Oceans. Which is the deepest ocean trench?",
+   "options": [
+    "Java Trench",
+    "Mariana Trench",
+    "Puerto Rico Trench"
+   ],
+   "answer": 1,
+   "fact": "Nearly 11 km down"
+  },
+  {
+   "emoji": "☄️",
+   "text": "SPACE\nComets are mostly…",
+   "say": "Space. What are comets mostly made of?",
+   "options": [
+    "Ice and dust",
+    "Iron",
+    "Pure gas"
+   ],
+   "answer": 0,
+   "fact": "Their tails form as the Sun heats them"
+  },
+  {
+   "emoji": "🪸",
+   "text": "OCEANS\nCoral is a…",
+   "say": "Oceans. Is coral a plant, an animal or a rock?",
+   "options": [
+    "Plant",
+    "Animal",
+    "Rock"
+   ],
+   "answer": 1,
+   "fact": "Tiny animals called polyps build reefs"
+  }
+ ],
+ "yt": {
+  "title": "Do You Know More About Space or Oceans? 🚀🌊",
+  "description": "The Moon, Jupiter's giant storm and comets battle the deepest trench, coral reefs and how much of Earth is water. Which side won for you? 👇\n\n#shorts #quiz #space #ocean #trivia",
+  "tags": [
+   "space or oceans",
+   "space quiz",
+   "ocean quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "title": "MATHS vs WORDS",
+ "hook1": "Maths or words:",
+ "hook2": "which do you know better?",
+ "hook_emoji": "🔢",
+ "bg": [
+  "#1E3A8A",
+  "#BE185D"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring-left",
+  "bpm": 120,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "✖️",
+   "text": "MATHS\n9 × 9 = ?",
+   "say": "Maths. What is nine times nine?",
+   "options": [
+    "72",
+    "81",
+    "99"
+   ],
+   "answer": 1,
+   "fact": "9 squared is 81"
+  },
+  {
+   "emoji": "😀",
+   "text": "WORDS\nA synonym of 'happy'?",
+   "say": "Words. Which word means the same as happy?",
+   "options": [
+    "Joyful",
+    "Angry",
+    "Tired"
+   ],
+   "answer": 0,
+   "fact": "Synonyms mean the same or nearly the same"
+  },
+  {
+   "emoji": "📐",
+   "text": "MATHS\nA triangle's angles add up to…",
+   "say": "Maths. The angles in a triangle add up to how many degrees?",
+   "options": [
+    "90°",
+    "180°",
+    "360°"
+   ],
+   "answer": 1,
+   "fact": "A square's add up to 360°"
+  },
+  {
+   "emoji": "🔤",
+   "text": "WORDS\nLetters in the English alphabet?",
+   "say": "Words. How many letters are in the English alphabet?",
+   "options": [
+    "28",
+    "24",
+    "26"
+   ],
+   "answer": 2,
+   "fact": "Five are vowels: A, E, I, O, U"
+  },
+  {
+   "emoji": "🔢",
+   "text": "MATHS\nNext prime number after 7?",
+   "say": "Maths. What's the next prime number after seven?",
+   "options": [
+    "9",
+    "11",
+    "13"
+   ],
+   "answer": 1,
+   "fact": "A prime has exactly two factors"
+  },
+  {
+   "emoji": "🔁",
+   "text": "WORDS\nA word that reads the same backwards?",
+   "say": "Words. A word that reads the same backwards is called a what?",
+   "options": [
+    "Palindrome",
+    "Synonym",
+    "Acronym"
+   ],
+   "answer": 0,
+   "fact": "Like 'level' or 'racecar'"
+  }
+ ],
+ "yt": {
+  "title": "Do You Know More About Maths or Words? 🔢🔤",
+  "description": "Times tables, triangles and primes go head to head with synonyms, the alphabet and palindromes. Which side are you better at? 👇\n\n#shorts #quiz #maths #english #trivia",
+  "tags": [
+   "maths or words",
+   "maths quiz",
+   "english quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

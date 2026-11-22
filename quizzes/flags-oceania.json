@@ -1,0 +1,82 @@
+{
+ "title": "ISLAND FLAGS",
+ "hook1": "Island edition:",
+ "hook2": "can you name all 5?",
+ "hook_emoji": "🏝️",
+ "bg": [
+  "#155E75",
+  "#F59E0B"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "bar",
+  "bpm": 124,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇳🇿",
+   "options": [
+    "Australia",
+    "New Zealand",
+    "Fiji"
+   ],
+   "answer": 1,
+   "fact": "Its Southern Cross stars are red, edged in white|⭐"
+  },
+  {
+   "emoji": "🇫🇯",
+   "options": [
+    "Fiji",
+    "Samoa",
+    "Tuvalu"
+   ],
+   "answer": 0,
+   "fact": "The light blue stands for the Pacific Ocean|🌊"
+  },
+  {
+   "emoji": "🇵🇬",
+   "options": [
+    "Solomon Islands",
+    "Papua New Guinea",
+    "Vanuatu"
+   ],
+   "answer": 1,
+   "fact": "The gold bird is a bird of paradise|🐦"
+  },
+  {
+   "emoji": "🇼🇸",
+   "options": [
+    "Tonga",
+    "Kiribati",
+    "Samoa"
+   ],
+   "answer": 2,
+   "fact": "Its five white stars form the Southern Cross|✨"
+  },
+  {
+   "emoji": "🇻🇺",
+   "options": [
+    "Vanuatu",
+    "Nauru",
+    "Palau"
+   ],
+   "answer": 0,
+   "fact": "The yellow Y shows how the islands are laid out|🗺️"
+  }
+ ],
+ "yt": {
+  "title": "Guess These 5 Island Flags 🏝️",
+  "description": "New Zealand, Fiji and three tougher Pacific island flags, from a bird of paradise to a yellow Y. How many can you name? 👇\n\n#shorts #quiz #flags #flagquiz #oceania",
+  "tags": [
+   "island flags",
+   "pacific flags",
+   "oceania flags",
+   "flag quiz",
+   "guess the flag",
+   "shorts"
+  ]
+ }
+}

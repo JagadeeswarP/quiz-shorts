@@ -1,0 +1,103 @@
+{
+ "title": "BODY vs ANIMALS",
+ "hook1": "Human body or animals:",
+ "hook2": "which do you know better?",
+ "hook_emoji": "🫀",
+ "bg": [
+  "#831843",
+  "#3F6212"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "bpm": 116,
+  "root": 185,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🦷",
+   "text": "HUMAN BODY\nAdult teeth, usually?",
+   "say": "Human body. How many teeth does an adult usually have?",
+   "options": [
+    "28",
+    "32",
+    "36"
+   ],
+   "answer": 1,
+   "fact": "That includes four wisdom teeth"
+  },
+  {
+   "emoji": "🦉",
+   "text": "ANIMALS\nA group of owls is a…",
+   "say": "Animals. A group of owls is called a what?",
+   "options": [
+    "Pride",
+    "School",
+    "Parliament"
+   ],
+   "answer": 2,
+   "fact": "A group of crows is a murder"
+  },
+  {
+   "emoji": "👄",
+   "text": "HUMAN BODY\nDigestion starts in the…",
+   "say": "Human body. Where does digestion begin?",
+   "options": [
+    "Mouth",
+    "Stomach",
+    "Intestines"
+   ],
+   "answer": 0,
+   "fact": "Saliva starts breaking down starch"
+  },
+  {
+   "emoji": "🐄",
+   "text": "ANIMALS\nStomach chambers in a cow?",
+   "say": "Animals. How many chambers does a cow's stomach have?",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "fact": "Rumen, reticulum, omasum, abomasum"
+  },
+  {
+   "emoji": "🦵",
+   "text": "HUMAN BODY\nAnother name for the kneecap?",
+   "say": "Human body. What's another name for the kneecap?",
+   "options": [
+    "Femur",
+    "Patella",
+    "Tibia"
+   ],
+   "answer": 1,
+   "fact": "Babies' kneecaps are mostly soft cartilage"
+  },
+  {
+   "emoji": "🐦",
+   "text": "ANIMALS\nWhich bird can fly backwards?",
+   "say": "Animals. Which bird can fly backwards?",
+   "options": [
+    "Hummingbird",
+    "Eagle",
+    "Penguin"
+   ],
+   "answer": 0,
+   "fact": "Its wings beat dozens of times a second"
+  }
+ ],
+ "yt": {
+  "title": "Do You Know More About the Human Body or Animals? 🫀🐄",
+  "description": "Teeth, kneecaps and digestion take on owls, cow stomachs and a bird that flies in reverse. Which side scored higher for you? 👇\n\n#shorts #quiz #humanbody #animals #trivia",
+  "tags": [
+   "human body quiz",
+   "animal quiz",
+   "body or animals",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

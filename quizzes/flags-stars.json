@@ -1,0 +1,82 @@
+{
+ "title": "STAR FLAGS",
+ "hook1": "Every flag has a star.",
+ "hook2": "Name all 5?",
+ "hook_emoji": "⭐",
+ "bg": [
+  "#1E3A8A",
+  "#DC2626"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 118,
+  "root": 233.1,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇺🇸",
+   "options": [
+    "USA",
+    "Liberia",
+    "Malaysia"
+   ],
+   "answer": 0,
+   "fact": "50 stars, one for each state|⭐"
+  },
+  {
+   "emoji": "🇨🇱",
+   "options": [
+    "Panama",
+    "Chile",
+    "Cuba"
+   ],
+   "answer": 1,
+   "fact": "One white star in a blue square|⬜"
+  },
+  {
+   "emoji": "🇲🇦",
+   "options": [
+    "Tunisia",
+    "Turkey",
+    "Morocco"
+   ],
+   "answer": 2,
+   "fact": "A green five-pointed star on red|💚"
+  },
+  {
+   "emoji": "🇨🇻",
+   "options": [
+    "Comoros",
+    "Cape Verde",
+    "Solomon Islands"
+   ],
+   "answer": 1,
+   "fact": "Ten stars for its ten main islands|🔟"
+  },
+  {
+   "emoji": "🇫🇲",
+   "options": [
+    "Micronesia",
+    "Tuvalu",
+    "Marshall Islands"
+   ],
+   "answer": 0,
+   "fact": "Four stars, one for each of its states|✨"
+  }
+ ],
+ "yt": {
+  "title": "Name the Flag: Star Edition ⭐",
+  "description": "From 50 stars down to one: the USA, Chile, Morocco, Cape Verde and Micronesia all put stars on their flags. How many can you name? 👇\n\n#shorts #quiz #flags #flagquiz #stars",
+  "tags": [
+   "flags with stars",
+   "star flags",
+   "flag quiz",
+   "guess the flag",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

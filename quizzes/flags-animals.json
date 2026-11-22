@@ -1,0 +1,82 @@
+{
+ "title": "ANIMAL FLAGS",
+ "hook1": "Every flag has an animal.",
+ "hook2": "Name all 5?",
+ "hook_emoji": "🦅",
+ "bg": [
+  "#7C2D12",
+  "#16A34A"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 120,
+  "root": 196,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇪🇬",
+   "options": [
+    "Egypt",
+    "Iraq",
+    "Yemen"
+   ],
+   "answer": 0,
+   "fact": "The gold bird is the Eagle of Saladin|🦅"
+  },
+  {
+   "emoji": "🇦🇱",
+   "options": [
+    "Montenegro",
+    "Albania",
+    "Serbia"
+   ],
+   "answer": 1,
+   "fact": "A black two-headed eagle on red|🖤"
+  },
+  {
+   "emoji": "🇺🇬",
+   "options": [
+    "Kenya",
+    "Rwanda",
+    "Uganda"
+   ],
+   "answer": 2,
+   "fact": "The bird is a grey crowned crane|🐦"
+  },
+  {
+   "emoji": "🇿🇲",
+   "options": [
+    "Zimbabwe",
+    "Zambia",
+    "Malawi"
+   ],
+   "answer": 1,
+   "fact": "An African fish eagle flies over the stripes|🐟"
+  },
+  {
+   "emoji": "🇰🇮",
+   "options": [
+    "Kiribati",
+    "Tuvalu",
+    "Nauru"
+   ],
+   "answer": 0,
+   "fact": "A frigatebird flies over a rising sun|🌅"
+  }
+ ],
+ "yt": {
+  "title": "Name the Flag: Animal Edition 🦅",
+  "description": "An eagle, a two-headed eagle, a crowned crane, a fish eagle and a frigatebird: each flag hides an animal. How many countries can you name? 👇\n\n#shorts #quiz #flags #flagquiz #animals",
+  "tags": [
+   "flags with animals",
+   "animal flags",
+   "flag quiz",
+   "guess the flag",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

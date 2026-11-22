@@ -1,0 +1,82 @@
+{
+ "title": "SOUTH AMERICA FLAGS",
+ "hook1": "South America edition:",
+ "hook2": "can you name all 5?",
+ "hook_emoji": "🌎",
+ "bg": [
+  "#1D4ED8",
+  "#CA8A04"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 122,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇦🇷",
+   "options": [
+    "Uruguay",
+    "Argentina",
+    "Chile"
+   ],
+   "answer": 1,
+   "fact": "The 'Sun of May' sits in the middle|☀️"
+  },
+  {
+   "emoji": "🇨🇴",
+   "options": [
+    "Ecuador",
+    "Venezuela",
+    "Colombia"
+   ],
+   "answer": 2,
+   "fact": "Its yellow band fills the top half|💛"
+  },
+  {
+   "emoji": "🇵🇪",
+   "options": [
+    "Peru",
+    "Bolivia",
+    "Chile"
+   ],
+   "answer": 0,
+   "fact": "Red, white, red in upright bands|🟥"
+  },
+  {
+   "emoji": "🇺🇾",
+   "options": [
+    "Greece",
+    "Uruguay",
+    "Argentina"
+   ],
+   "answer": 1,
+   "fact": "It has a Sun of May too, in the corner|🌞"
+  },
+  {
+   "emoji": "🇵🇾",
+   "options": [
+    "Paraguay",
+    "Bolivia",
+    "Netherlands"
+   ],
+   "answer": 0,
+   "fact": "Its front and back show different emblems|🔄"
+  }
+ ],
+ "yt": {
+  "title": "Guess These 5 South American Flags 🌎",
+  "description": "Two flags with a Sun of May, a big yellow band and one flag with two different sides. Name all five from Argentina to Paraguay? 👇\n\n#shorts #quiz #flags #flagquiz #southamerica",
+  "tags": [
+   "south america flags",
+   "flag quiz",
+   "guess the flag",
+   "geography quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

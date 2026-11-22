@@ -1,0 +1,42 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#581C87",
+  "#22C55E"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring-left",
+  "bpm": 130,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "✍️",
+   "text": "Which word is spelled wrong?",
+   "options": [
+    "Definitely",
+    "Tomorrow",
+    "Seperate"
+   ],
+   "answer": 2,
+   "fact": "The right spelling is s-e-p-a-r-a-t-e",
+   "say_answer": "The third one! It should be separate, with an A."
+  }
+ ],
+ "yt": {
+  "title": "Which Word Is Spelled Wrong? ✍️ (3 Seconds)",
+  "description": "Definitely, tomorrow or seperate: one of these common words has a sneaky typo. Spot it in three seconds 👇\n\n#shorts #quiz #spelling #english #trivia",
+  "tags": [
+   "spelling quiz",
+   "which word is spelled wrong",
+   "english quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

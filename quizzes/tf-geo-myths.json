@@ -1,0 +1,110 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "Geography myths:",
+ "hook2": "true or false?",
+ "hook_emoji": "🧭",
+ "bg": [
+  "#365314",
+  "#0369A1"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 120,
+  "root": 185,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🏔️",
+   "text": "Everest is the tallest mountain\nfrom base to peak",
+   "say": "True or false? Everest is the tallest mountain, measured from base to peak.",
+   "answer": 1,
+   "fact": "Mauna Kea is taller from its seafloor base"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🧊",
+   "text": "The world's largest desert\nis Antarctica",
+   "say": "True or false? The world's largest desert is Antarctica",
+   "answer": 0,
+   "fact": "A desert means little rain, not heat"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🍁",
+   "text": "Canada has the world's\nlongest coastline",
+   "say": "True or false? Canada has the world's longest coastline",
+   "answer": 0,
+   "fact": "Thousands of islands add up"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🗺️",
+   "text": "Greenland is bigger\nthan Africa",
+   "say": "True or false? Greenland is bigger than Africa",
+   "answer": 1,
+   "fact": "Maps stretch it; Africa is about 14 times bigger"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🕰️",
+   "text": "Russia spans 11\ntime zones",
+   "say": "True or false? Russia spans 11 time zones",
+   "answer": 0,
+   "fact": "From the Baltic to the Pacific"
+  }
+ ],
+ "yt": {
+  "title": "True or False: Geography Myths 🧭",
+  "description": "Is Everest really the tallest? Is Antarctica a desert? Is Greenland as big as it looks on maps? Five geography claims to settle 👇\n\n#shorts #quiz #geography #trueorfalse #maps",
+  "tags": [
+   "true or false",
+   "geography myths",
+   "geography quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

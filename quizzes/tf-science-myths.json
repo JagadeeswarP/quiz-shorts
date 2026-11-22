@@ -1,0 +1,110 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "Science myths:",
+ "hook2": "true or false?",
+ "hook_emoji": "🧪",
+ "bg": [
+  "#312E81",
+  "#0D9488"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "bar",
+  "bpm": 122,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🧊",
+   "text": "Water expands when\nit freezes",
+   "say": "True or false? Water expands when it freezes",
+   "answer": 0,
+   "fact": "That's why ice floats"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🪟",
+   "text": "Glass is a slow-flowing\nliquid",
+   "say": "True or false? Glass is a slow-flowing liquid",
+   "answer": 1,
+   "fact": "Old windows were just made uneven"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🪙",
+   "text": "A coin dropped from a\nskyscraper could kill you",
+   "say": "True or false? A coin dropped from a skyscraper could kill you",
+   "answer": 1,
+   "fact": "It tumbles and slows to a harmless speed"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🌍",
+   "text": "Earth is closest to\nthe Sun in January",
+   "say": "True or false? Earth is closest to the Sun in January",
+   "answer": 0,
+   "fact": "Seasons come from Earth's tilt, not distance"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🦠",
+   "text": "You carry about as many\nbacteria as human cells",
+   "say": "True or false? You carry about as many bacteria as human cells",
+   "answer": 0,
+   "fact": "Recent estimates put it near 1 to 1"
+  }
+ ],
+ "yt": {
+  "title": "True or False: Science Myths 🧪",
+  "description": "Flowing glass, falling coins, freezing water and the month Earth gets closest to the Sun. Myth or real science? 👇\n\n#shorts #quiz #science #trueorfalse #myths",
+  "tags": [
+   "true or false",
+   "science myths",
+   "science quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

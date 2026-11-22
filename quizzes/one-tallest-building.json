@@ -1,0 +1,42 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#1E293B",
+  "#F59E0B"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring",
+  "bpm": 132,
+  "root": 233.1,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🏙️",
+   "text": "World's tallest building?",
+   "options": [
+    "Shanghai Tower",
+    "Burj Khalifa",
+    "Empire State"
+   ],
+   "answer": 1,
+   "fact": "828 metres tall, in Dubai",
+   "say": "What is the tallest building in the world?"
+  }
+ ],
+ "yt": {
+  "title": "What's the Tallest Building in the World? 🏙️ (3 Seconds)",
+  "description": "Shanghai Tower, Burj Khalifa or the Empire State Building: which one reaches 828 metres? You have three seconds 👇\n\n#shorts #quiz #buildings #tallest #trivia",
+  "tags": [
+   "tallest building",
+   "building quiz",
+   "quiz",
+   "trivia",
+   "shorts"
+  ]
+ }
+}

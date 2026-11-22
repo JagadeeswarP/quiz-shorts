@@ -1,0 +1,42 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#14532D",
+  "#38BDF8"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "bar",
+  "bpm": 128,
+  "root": 246.9,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🏞️",
+   "text": "Europe's longest river?",
+   "options": [
+    "Danube",
+    "Volga",
+    "Rhine"
+   ],
+   "answer": 1,
+   "fact": "About 3,500 km, ending in the Caspian Sea",
+   "say": "What is the longest river in Europe?"
+  }
+ ],
+ "yt": {
+  "title": "What's Europe's Longest River? 🏞️ (3 Seconds)",
+  "description": "Danube, Volga or Rhine: only one of them runs about 3,500 km across Europe. Answer before the timer runs out 👇\n\n#shorts #quiz #rivers #europe #geography",
+  "tags": [
+   "longest river",
+   "europe quiz",
+   "geography quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

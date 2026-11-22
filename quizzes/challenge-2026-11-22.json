@@ -1,0 +1,308 @@
+{
+ "title": "20-QUESTION CHALLENGE",
+ "hook1": "20 questions:",
+ "hook2": "easy to expert. Ready?",
+ "hook_emoji": "🏆",
+ "format": "landscape",
+ "think": 10,
+ "speak_fact": true,
+ "outro_text": "New challenge every Sunday!",
+ "outro_say": "How many did you get out of twenty? Comment your score, and come back next Sunday for a new challenge!",
+ "bg": [
+  "#7C2D12",
+  "#1E1B4B"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "bar",
+  "bpm": 112,
+  "root": 220.0,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🐝",
+   "text": "What do honeybees\nmake?",
+   "options": [
+    "Silk",
+    "Honey",
+    "Wax paper"
+   ],
+   "answer": 1,
+   "fact": "They make it from flower nectar"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🍅",
+   "text": "A tomato is a fruit",
+   "say": "True or false? A tomato is a fruit.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 0,
+   "fact": "Botanically yes: it grows from a flower and holds seeds"
+  },
+  {
+   "emoji": "📅",
+   "text": "How many days are\nin a leap year?",
+   "options": [
+    "365",
+    "367",
+    "366"
+   ],
+   "answer": 2,
+   "fact": "February gets a 29th day"
+  },
+  {
+   "layout": "tiles",
+   "text": "Which one is a bird?",
+   "options": [
+    "Bat",
+    "Butterfly",
+    "Bee",
+    "Owl"
+   ],
+   "opt_emoji": [
+    "🦇",
+    "🦋",
+    "🐝",
+    "🦉"
+   ],
+   "answer": 3,
+   "fact": "Bats are mammals; butterflies and bees are insects"
+  },
+  {
+   "emoji": "🐸",
+   "text": "A baby frog is\ncalled a…",
+   "options": [
+    "Tadpole",
+    "Cub",
+    "Kid"
+   ],
+   "answer": 0,
+   "fact": "Tadpoles breathe with gills at first"
+  },
+  {
+   "emoji": "🌋",
+   "text": "Molten rock that reaches\nthe surface is called…",
+   "options": [
+    "Magma",
+    "Lava",
+    "Basalt"
+   ],
+   "answer": 1,
+   "fact": "Underground, the same molten rock is called magma"
+  },
+  {
+   "layout": "versus",
+   "emoji": "🥜",
+   "text": "Peanuts are nuts",
+   "say": "True or false? Peanuts are nuts.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 1,
+   "fact": "They're legumes, like peas and beans",
+   "say_answer": "False!"
+  },
+  {
+   "emoji": "☀️",
+   "text": "Which planet is closest\nto the Sun?",
+   "options": [
+    "Mercury",
+    "Venus",
+    "Mars"
+   ],
+   "answer": 0,
+   "fact": "A year there lasts just 88 Earth days"
+  },
+  {
+   "layout": "versus",
+   "text": "Which is colder?",
+   "say": "Which is colder: the North Pole, or the South Pole?",
+   "options": [
+    "North Pole",
+    "South Pole"
+   ],
+   "opt_emoji": [
+    "🧭",
+    "🐧"
+   ],
+   "answer": 1,
+   "fact": "The South Pole sits on ice nearly 3 km thick",
+   "say_answer": "The South Pole!"
+  },
+  {
+   "emoji": "🎻",
+   "text": "How many musicians play\nin a string quartet?",
+   "options": [
+    "3",
+    "5",
+    "4"
+   ],
+   "answer": 2,
+   "fact": "Two violins, a viola and a cello"
+  },
+  {
+   "emoji": "💎",
+   "text": "Hardest natural\nsubstance?",
+   "options": [
+    "Diamond",
+    "Quartz",
+    "Iron"
+   ],
+   "answer": 0,
+   "fact": "Diamond is pure carbon, packed very tightly"
+  },
+  {
+   "layout": "tiles",
+   "text": "Which one isn't\na prime number?",
+   "say": "Which one isn't a prime number?",
+   "options": [
+    "2",
+    "9",
+    "7",
+    "3"
+   ],
+   "opt_emoji": [
+    "2️⃣",
+    "9️⃣",
+    "7️⃣",
+    "3️⃣"
+   ],
+   "answer": 1,
+   "fact": "9 is 3 times 3",
+   "say_answer": "Nine!"
+  },
+  {
+   "emoji": "🕒",
+   "text": "How many time zones does\nChina officially use?",
+   "options": [
+    "3",
+    "5",
+    "1"
+   ],
+   "answer": 2,
+   "fact": "The whole country runs on Beijing time",
+   "say_answer": "Just one!"
+  },
+  {
+   "layout": "versus",
+   "emoji": "⚡",
+   "text": "Lightning never strikes\nthe same place twice",
+   "say": "True or false? Lightning never strikes the same place twice.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "answer": 1,
+   "fact": "Tall towers get hit many times a year"
+  },
+  {
+   "emoji": "🩸",
+   "text": "Which blood type is the\nuniversal donor?",
+   "say": "Which blood type is the universal donor?",
+   "options": [
+    "O−",
+    "AB+",
+    "A+"
+   ],
+   "answer": 0,
+   "fact": "O negative red cells suit almost anyone",
+   "say_answer": "O negative!"
+  },
+  {
+   "emoji": "🗿",
+   "text": "Easter Island belongs\nto which country?",
+   "options": [
+    "Peru",
+    "Chile",
+    "New Zealand"
+   ],
+   "answer": 1,
+   "fact": "It's about 3,500 km off the Chilean coast"
+  },
+  {
+   "emoji": "🧪",
+   "text": "Which element has\nthe symbol Fe?",
+   "say": "Which element has the symbol F, E?",
+   "options": [
+    "Fluorine",
+    "Lead",
+    "Iron"
+   ],
+   "answer": 2,
+   "fact": "Fe comes from ferrum, Latin for iron"
+  },
+  {
+   "layout": "versus",
+   "text": "Who has more bones?",
+   "say": "Who has more bones: a newborn baby, or an adult?",
+   "options": [
+    "A newborn",
+    "An adult"
+   ],
+   "opt_emoji": [
+    "👶",
+    "🧑"
+   ],
+   "answer": 0,
+   "fact": "About 300 at birth; many fuse into 206",
+   "say_answer": "The newborn!"
+  },
+  {
+   "emoji": "🧱",
+   "text": "In which year did the\nBerlin Wall fall?",
+   "options": [
+    "1987",
+    "1989",
+    "1991"
+   ],
+   "answer": 1,
+   "fact": "Germany reunified the following year, 1990"
+  },
+  {
+   "layout": "versus",
+   "text": "Which day is longer?",
+   "say": "Which is longer: a day on Earth, or a day on Mars?",
+   "options": [
+    "Earth",
+    "Mars"
+   ],
+   "opt_emoji": [
+    "🌍",
+    "🔴"
+   ],
+   "answer": 1,
+   "fact": "A Martian day is about 40 minutes longer",
+   "say_answer": "A day on Mars!"
+  }
+ ],
+ "yt": {
+  "title": "Weekly 20-Question Challenge: Easy to Expert 🏆 (Week 2)",
+  "description": "This week's Sunday challenge: 20 new questions with a 10-second timer each, from honeybees and leap years up to blood types, Easter Island and the length of a day on Mars. Every answer comes with a quick fact. Keep count and comment your score out of 20 👇 A new challenge drops every Sunday.\n\n#quiz #trivia #generalknowledge #quizchallenge #triviaquiz",
+  "tags": [
+   "20 question challenge",
+   "weekly quiz",
+   "general knowledge quiz",
+   "trivia challenge",
+   "easy to expert quiz",
+   "quiz",
+   "trivia"
+  ]
+ }
+}

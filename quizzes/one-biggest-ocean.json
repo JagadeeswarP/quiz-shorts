@@ -1,0 +1,41 @@
+{
+ "title": "ONE QUESTION",
+ "hook1": "One question:",
+ "hook2": "3 seconds. Go!",
+ "hook_emoji": "⏱️",
+ "bg": [
+  "#0C4A6E",
+  "#06B6D4"
+ ],
+ "style": {
+  "pattern": "dots",
+  "timer": "ring-left",
+  "bpm": 130,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "emoji": "🌊",
+   "text": "Which ocean is the biggest?",
+   "options": [
+    "Atlantic",
+    "Indian",
+    "Pacific"
+   ],
+   "answer": 2,
+   "fact": "It's bigger than all the land on Earth put together"
+  }
+ ],
+ "yt": {
+  "title": "Which Ocean Is the Biggest? 🌊 (3 Seconds)",
+  "description": "Atlantic, Indian or Pacific: one of them covers more area than every continent combined. Lock in your answer before the timer ends 👇\n\n#shorts #quiz #ocean #geography #trivia",
+  "tags": [
+   "ocean quiz",
+   "biggest ocean",
+   "geography quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

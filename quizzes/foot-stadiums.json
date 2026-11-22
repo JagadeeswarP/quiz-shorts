@@ -1,0 +1,92 @@
+{
+ "title": "FOOTBALL QUIZ",
+ "hook1": "Famous stadiums:",
+ "hook2": "which country?",
+ "hook_emoji": "🏟️",
+ "bg": [
+  "#14532D",
+  "#1E40AF"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring-left",
+  "bpm": 126,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "ask": "Which country is this stadium in?",
+ "questions": [
+  {
+   "emoji": "⚽",
+   "text": "Wembley Stadium",
+   "options": [
+    "Scotland",
+    "England",
+    "Wales"
+   ],
+   "answer": 1,
+   "fact": "The old Wembley hosted the 1966 final",
+   "say": "Wembley Stadium is in which country?"
+  },
+  {
+   "emoji": "🏟️",
+   "text": "The Maracanã",
+   "options": [
+    "Argentina",
+    "Portugal",
+    "Brazil"
+   ],
+   "answer": 2,
+   "fact": "It hosted World Cup finals in 1950 and 2014",
+   "say": "The Maracanã stadium is in which country?"
+  },
+  {
+   "emoji": "🔴",
+   "text": "San Siro",
+   "options": [
+    "Italy",
+    "Spain",
+    "France"
+   ],
+   "answer": 0,
+   "fact": "AC Milan and Inter share it",
+   "say": "The San Siro stadium is in which country?"
+  },
+  {
+   "emoji": "🌮",
+   "text": "Estadio Azteca",
+   "options": [
+    "Colombia",
+    "Mexico",
+    "Peru"
+   ],
+   "answer": 1,
+   "fact": "It hosted the 1970 and 1986 finals",
+   "say": "Estadio Azteca is in which country?"
+  },
+  {
+   "emoji": "🔵",
+   "text": "Camp Nou",
+   "options": [
+    "Spain",
+    "Italy",
+    "Germany"
+   ],
+   "answer": 0,
+   "fact": "It's the home of FC Barcelona",
+   "say": "Camp Nou is in which country?"
+  }
+ ],
+ "yt": {
+  "title": "Football Quiz: Famous Stadiums ⚽ Which Country?",
+  "description": "Wembley, the Maracanã, San Siro, the Azteca and Camp Nou: can you place each famous ground in the right country? 👇\n\n#shorts #quiz #football #soccer #stadiums",
+  "tags": [
+   "football quiz",
+   "football stadiums",
+   "soccer quiz",
+   "stadium quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

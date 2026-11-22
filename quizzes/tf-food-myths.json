@@ -1,0 +1,111 @@
+{
+ "title": "TRUE OR FALSE?",
+ "hook1": "Food myths:",
+ "hook2": "true or false?",
+ "hook_emoji": "🍌",
+ "bg": [
+  "#A16207",
+  "#7F1D1D"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 118,
+  "root": 233.1,
+  "voice": "af_heart"
+ },
+ "questions": [
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🥕",
+   "text": "The first farmed carrots\nweren't orange",
+   "say": "True or false? The first farmed carrots weren't orange",
+   "answer": 0,
+   "fact": "Early carrots were purple or yellow"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🍫",
+   "text": "White chocolate has\nno cocoa butter",
+   "say": "True or false? White chocolate has no cocoa butter",
+   "answer": 1,
+   "fact": "Cocoa butter is its main ingredient"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🍌",
+   "text": "Bananas grow on trees",
+   "say": "True or false? Bananas grow on trees",
+   "answer": 1,
+   "fact": "The plant is a giant herb; its 'trunk' is rolled leaves"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🍎",
+   "text": "Apples float in water",
+   "say": "True or false? Apples float in water",
+   "answer": 0,
+   "fact": "About a quarter of an apple is air"
+  },
+  {
+   "layout": "versus",
+   "options": [
+    "True",
+    "False"
+   ],
+   "opt_emoji": [
+    "✅",
+    "❌"
+   ],
+   "emoji": "🍝",
+   "text": "Salt makes pasta water\nboil much faster",
+   "say": "True or false? Salt makes pasta water boil much faster",
+   "answer": 1,
+   "fact": "Salt actually raises the boiling point a tiny bit"
+  }
+ ],
+ "yt": {
+  "title": "True or False: Food Myths 🍌",
+  "description": "Purple carrots, banana 'trees', floating apples and the salty pasta water trick. Which food facts hold up? 👇\n\n#shorts #quiz #food #trueorfalse #foodfacts",
+  "tags": [
+   "true or false",
+   "food myths",
+   "food facts",
+   "food quiz",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

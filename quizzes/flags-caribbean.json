@@ -1,0 +1,82 @@
+{
+ "title": "CARIBBEAN FLAGS",
+ "hook1": "Caribbean edition:",
+ "hook2": "can you name all 5?",
+ "hook_emoji": "🌴",
+ "bg": [
+  "#0E7490",
+  "#EAB308"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "ring",
+  "bpm": 126,
+  "root": 207.7,
+  "voice": "af_heart"
+ },
+ "ask": "Which country does this flag belong to?",
+ "questions": [
+  {
+   "emoji": "🇯🇲",
+   "options": [
+    "Bahamas",
+    "Jamaica",
+    "Grenada"
+   ],
+   "answer": 1,
+   "fact": "No red, white or blue on it at all|💚"
+  },
+  {
+   "emoji": "🇧🇸",
+   "options": [
+    "Bahamas",
+    "Barbados",
+    "Belize"
+   ],
+   "answer": 0,
+   "fact": "Aquamarine stripes for the sea|🌊"
+  },
+  {
+   "emoji": "🇹🇹",
+   "options": [
+    "Grenada",
+    "Saint Lucia",
+    "Trinidad & Tobago"
+   ],
+   "answer": 2,
+   "fact": "A black band edged in white|⬛"
+  },
+  {
+   "emoji": "🇧🇧",
+   "options": [
+    "Bahamas",
+    "Barbados",
+    "St Vincent"
+   ],
+   "answer": 1,
+   "fact": "A broken trident sits in the middle|🔱"
+  },
+  {
+   "emoji": "🇱🇨",
+   "options": [
+    "Saint Lucia",
+    "Dominica",
+    "Haiti"
+   ],
+   "answer": 0,
+   "fact": "The triangles stand for the twin Pitons|⛰️"
+  }
+ ],
+ "yt": {
+  "title": "Guess These 5 Caribbean Flags 🌴",
+  "description": "Jamaica, the Bahamas and three trickier island flags with a broken trident, a black band and twin peaks. Can you name all five? 👇\n\n#shorts #quiz #flags #flagquiz #caribbean",
+  "tags": [
+   "caribbean flags",
+   "flag quiz",
+   "guess the flag",
+   "island flags",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

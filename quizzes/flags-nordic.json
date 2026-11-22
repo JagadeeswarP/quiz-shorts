@@ -1,0 +1,82 @@
+{
+ "title": "NORDIC FLAGS",
+ "hook1": "Same cross, different colours.",
+ "hook2": "Name all 5?",
+ "hook_emoji": "❄️",
+ "bg": [
+  "#1E40AF",
+  "#B91C1C"
+ ],
+ "style": {
+  "pattern": "stripes",
+  "timer": "ring-left",
+  "bpm": 124,
+  "root": 220,
+  "voice": "af_heart"
+ },
+ "ask": "Whose flag is this?",
+ "questions": [
+  {
+   "emoji": "🇸🇪",
+   "options": [
+    "Finland",
+    "Sweden",
+    "Iceland"
+   ],
+   "answer": 1,
+   "fact": "A yellow cross on blue|💛"
+  },
+  {
+   "emoji": "🇳🇴",
+   "options": [
+    "Norway",
+    "Iceland",
+    "Denmark"
+   ],
+   "answer": 0,
+   "fact": "A blue cross inside a white one, on red|🟥"
+  },
+  {
+   "emoji": "🇫🇮",
+   "options": [
+    "Sweden",
+    "Iceland",
+    "Finland"
+   ],
+   "answer": 2,
+   "fact": "A blue cross on white|🤍"
+  },
+  {
+   "emoji": "🇮🇸",
+   "options": [
+    "Norway",
+    "Iceland",
+    "Faroe Islands"
+   ],
+   "answer": 1,
+   "fact": "Norway's colours, swapped around|🔄"
+  },
+  {
+   "emoji": "🇫🇴",
+   "options": [
+    "Faroe Islands",
+    "Åland",
+    "Greenland"
+   ],
+   "answer": 0,
+   "fact": "A red cross edged in blue, on white|🏝️"
+  }
+ ],
+ "yt": {
+  "title": "Nordic Flags Quiz: Can You Tell Them Apart?",
+  "description": "Five flags built on the same off-centre cross: Sweden, Norway, Finland, Iceland and the Faroe Islands. Can you match every colour combo? 👇\n\n#shorts #quiz #flags #flagquiz #nordic",
+  "tags": [
+   "nordic flags",
+   "scandinavian flags",
+   "flag quiz",
+   "guess the flag",
+   "quiz",
+   "shorts"
+  ]
+ }
+}

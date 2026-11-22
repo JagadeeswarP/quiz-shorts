@@ -1,0 +1,82 @@
+{
+ "title": "GUESS THE MOVIE",
+ "hook1": "Guess the movie",
+ "hook2": "from emojis!",
+ "hook_emoji": "🎬",
+ "bg": [
+  "#4C1D95",
+  "#F97316"
+ ],
+ "style": {
+  "pattern": "waves",
+  "timer": "bar",
+  "bpm": 128,
+  "root": 233.1,
+  "voice": "af_heart"
+ },
+ "ask": "Which movie is this?",
+ "questions": [
+  {
+   "emoji": "🐠🔍🌊",
+   "options": [
+    "Finding Nemo",
+    "Shark Tale",
+    "The Little Mermaid"
+   ],
+   "answer": 0,
+   "fact": "Nemo is a clownfish"
+  },
+  {
+   "emoji": "❄️👸⛄",
+   "options": [
+    "Cinderella",
+    "Frozen",
+    "Snow White"
+   ],
+   "answer": 1,
+   "fact": "Olaf is the snowman"
+  },
+  {
+   "emoji": "🎈🏠👴",
+   "options": [
+    "Coco",
+    "Inside Out",
+    "Up"
+   ],
+   "answer": 2,
+   "fact": "The house flies on thousands of balloons"
+  },
+  {
+   "emoji": "🦈🏖️😱",
+   "options": [
+    "The Meg",
+    "Jaws",
+    "Moana"
+   ],
+   "answer": 1,
+   "fact": "It came out in 1975"
+  },
+  {
+   "emoji": "🌪️👠🦁",
+   "options": [
+    "The Wizard of Oz",
+    "Twister",
+    "Madagascar"
+   ],
+   "answer": 0,
+   "fact": "Dorothy wears ruby slippers in the film"
+  }
+ ],
+ "yt": {
+  "title": "Guess 5 More Movies From Emojis 🎬",
+  "description": "A lost clownfish, a snowman, a flying house, a beach scare and a tornado: five films told in emojis. How many did you get? 👇\n\n#shorts #quiz #movies #emojiquiz #guessthemovie",
+  "tags": [
+   "emoji quiz",
+   "guess the movie",
+   "movie quiz",
+   "emoji movies",
+   "quiz",
+   "shorts"
+  ]
+ }
+}
