@@ -45,7 +45,7 @@
    "text": "White chocolate has\nno cocoa butter",
    "say": "True or false? White chocolate has no cocoa butter",
    "answer": 1,
-   "fact": "Cocoa butter is its main ingredient"
+   "fact": "It is made with cocoa butter"
   },
   {
    "layout": "versus",
