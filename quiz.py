@@ -151,7 +151,8 @@ def plan(q, voice_on=True):
         rev = max(1.4, d2 + 0.25)
         audio.append((t + think0 + THINK + 0.08, a2))
         segs.append(('q', k, t, think0 + THINK + rev, think0)); t += think0 + THINK + rev
-    a, d = tl(q.get('outro_say', 'How many did you get? Comment your score, and follow for a new quiz every day!'))
+    one = len(q['questions']) == 1
+    a, d = tl(q.get('outro_say', 'Did you get it right? Comment your answer, and follow for a new quiz every day!' if one else 'How many did you get? Comment your score, and follow for a new quiz every day!'))
     audio.append((t + 0.15, a)); END = max(2.0, d + 0.6)
     segs.append(('end', -1, t, END)); t += END
     return segs, audio, t
@@ -199,9 +200,10 @@ def frame(q, BG, segs, t):
         return im
     if kind == 'end':
         s = back(lt / 0.4)
-        text_mixed(d, im, (540, 640), 'How many did', 100 * s, (255, 255, 255), stroke=9)
-        text_mixed(d, im, (540, 770), 'you get?', 110 * s, (255, 222, 74), stroke=9)
-        text_mixed(d, im, (540, 900), 'Comment your score|👇', 60 * s, (255, 255, 255), stroke=6)
+        one = len(q['questions']) == 1
+        text_mixed(d, im, (540, 640), 'Did you get' if one else 'How many did', 100 * s, (255, 255, 255), stroke=9)
+        text_mixed(d, im, (540, 770), 'it right?' if one else 'you get?', 110 * s, (255, 222, 74), stroke=9)
+        text_mixed(d, im, (540, 900), ('Comment your answer|👇' if one else 'Comment your score|👇'), 60 * s, (255, 255, 255), stroke=6)
         fa = ease((lt - 0.6) / 0.3)
         if fa > 0:
             rr(d, (540 - 330 * fa, 1330, 540 + 330 * fa, 1430), 50, (255, 60, 70))
